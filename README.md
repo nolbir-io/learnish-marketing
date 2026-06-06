@@ -138,3 +138,5 @@ python3 .agents/generate-skill-commands.py
 ## Status
 
 Working scaffold. The phase structure (10 → 100 → 1,000) is a default to be revised once real ICP, timeline, and budget numbers are agreed. Several top-level unknowns (north-star metric, timeline, geographic scope, language posture) are tracked in the [playbook index](docs/playbook/README.md) and the [open-questions register](docs/playbook/open-questions-register.md).
+
+**Migrating this repo from Own → Learnish?** Track progress in [`docs/migration-tracker.md`](docs/migration-tracker.md).
