@@ -106,6 +106,35 @@ A few conventions keep this repo coherent (full version in [`CONTRIBUTING.md`](C
 
 ---
 
+## Invoking skills as slash commands
+
+Every marketing skill in [`.agents/skills/`](.agents/skills/) has a matching **Cursor slash command** in [`.cursor/commands/`](.cursor/commands/). Type `/` in Cursor chat and pick one (e.g. `/seo-audit`, `/cro`, `/launch`) to run that workflow on demand. Each command:
+
+- reads [`.agents/product-marketing-context.md`](.agents/product-marketing-context.md) first (the shared context every skill relies on),
+- then reads and follows the matching `SKILL.md`,
+- lists its **group** and **cross-referenced** sibling skills so related workflows are one hop away.
+
+Anything you type after the command (e.g. `/cro audit our pricing page`) is treated as the scope for that run. Start with [`/product-marketing`](.cursor/commands/product-marketing.md) if the shared context file is missing or thin.
+
+The commands mirror the skill taxonomy and are **generated**, not hand-maintained. After skills change, regenerate them:
+
+```bash
+python3 .agents/generate-skill-commands.py
+```
+
+| Group | Commands |
+|-------|----------|
+| Foundation | `/product-marketing` |
+| SEO & Content | `/seo-audit` `/ai-seo` `/site-architecture` `/programmatic-seo` `/schema` `/content-strategy` `/aso` |
+| CRO | `/cro` `/signup` `/onboarding` `/popups` `/paywalls` |
+| Content & Copy | `/copywriting` `/copy-editing` `/cold-email` `/emails` `/social` `/video` `/image` `/sms` |
+| Paid & Measurement | `/ads` `/ad-creative` `/ab-testing` `/analytics` |
+| Growth & Retention | `/referrals` `/free-tools` `/churn-prevention` `/community-marketing` `/lead-magnets` `/co-marketing` |
+| Sales & GTM | `/revops` `/sales-enablement` `/launch` `/pricing` `/competitors` `/competitor-profiling` `/directory-submissions` `/prospecting` `/gtm-partnership-architecture` |
+| Strategy | `/marketing-ideas` `/marketing-psychology` `/customer-research` `/marketing-plan` |
+
+---
+
 ## Status
 
 Working scaffold. The phase structure (10 → 100 → 1,000) is a default to be revised once real ICP, timeline, and budget numbers are agreed. Several top-level unknowns (north-star metric, timeline, geographic scope, language posture) are tracked in the [playbook index](docs/playbook/README.md) and the [open-questions register](docs/playbook/open-questions-register.md).

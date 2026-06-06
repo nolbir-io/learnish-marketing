@@ -1,0 +1,19 @@
+---
+name: revops
+description: "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes."
+---
+
+# /revops — RevOps
+
+Invoke the **revops** marketing skill and follow it for this task.
+
+**Do this now:**
+
+1. Read `.agents/product-marketing-context.md` first for shared product, ICP, and positioning context (every skill relies on it). If it is missing or thin, consider running `/product-marketing` first.
+2. Read and follow `.agents/skills/revops/SKILL.md` for this request.
+
+**Group:** Sales & GTM
+
+**Cross-references** (use if the task spills into their domain): `/sales-enablement`, `/cold-email`, `/prospecting`, `/launch`, `/pricing`, `/competitors`, `/competitor-profiling`, `/directory-submissions`, `/gtm-partnership-architecture`
+
+Treat any text I type after `/revops` as the specific scope/request for this workflow. If I didn't add anything, ask me what to focus on before proceeding.

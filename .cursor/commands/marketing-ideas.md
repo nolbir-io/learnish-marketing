@@ -1,0 +1,19 @@
+---
+name: marketing-ideas
+description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product."
+---
+
+# /marketing-ideas — Marketing Ideas for SaaS
+
+Invoke the **marketing-ideas** marketing skill and follow it for this task.
+
+**Do this now:**
+
+1. Read `.agents/product-marketing-context.md` first for shared product, ICP, and positioning context (every skill relies on it). If it is missing or thin, consider running `/product-marketing` first.
+2. Read and follow `.agents/skills/marketing-ideas/SKILL.md` for this request.
+
+**Group:** Strategy
+
+**Cross-references** (use if the task spills into their domain): `/marketing-psychology`, `/customer-research`, `/marketing-plan`
+
+Treat any text I type after `/marketing-ideas` as the specific scope/request for this workflow. If I didn't add anything, ask me what to focus on before proceeding.

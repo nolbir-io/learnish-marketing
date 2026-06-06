@@ -1,0 +1,19 @@
+---
+name: ab-testing
+description: "Plan, design, or implement an A/B test or experiment, or build a growth experimentation program."
+---
+
+# /ab-testing — A/B Test Setup
+
+Invoke the **ab-testing** marketing skill and follow it for this task.
+
+**Do this now:**
+
+1. Read `.agents/product-marketing-context.md` first for shared product, ICP, and positioning context (every skill relies on it). If it is missing or thin, consider running `/product-marketing` first.
+2. Read and follow `.agents/skills/ab-testing/SKILL.md` for this request.
+
+**Group:** Paid & Measurement
+
+**Cross-references** (use if the task spills into their domain): `/cro`, `/copywriting`, `/analytics`, `/ads`, `/ad-creative`
+
+Treat any text I type after `/ab-testing` as the specific scope/request for this workflow. If I didn't add anything, ask me what to focus on before proceeding.
