@@ -1,9 +1,6 @@
----
-name: image
-description: "Create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets."
----
-
 # /image — Image
+
+> Create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets.
 
 Invoke the **image** marketing skill and follow it for this task.
 

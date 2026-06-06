@@ -1,9 +1,6 @@
----
-name: launch
-description: "Plan a product launch, feature announcement, or release strategy."
----
-
 # /launch — Launch Strategy
+
+> Plan a product launch, feature announcement, or release strategy.
 
 Invoke the **launch** marketing skill and follow it for this task.
 

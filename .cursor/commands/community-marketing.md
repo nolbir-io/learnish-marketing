@@ -1,9 +1,6 @@
----
-name: community-marketing
-description: "Build and leverage online communities to drive product growth and brand loyalty."
----
-
 # /community-marketing — Community Marketing
+
+> Build and leverage online communities to drive product growth and brand loyalty.
 
 Invoke the **community-marketing** marketing skill and follow it for this task.
 

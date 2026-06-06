@@ -1,9 +1,6 @@
----
-name: directory-submissions
-description: "Submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery."
----
-
 # /directory-submissions — Directory Submissions
+
+> Submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery.
 
 Invoke the **directory-submissions** marketing skill and follow it for this task.
 

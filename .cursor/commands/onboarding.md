@@ -1,9 +1,6 @@
----
-name: onboarding
-description: "Optimize post-signup onboarding, user activation, first-run experience, or time-to-value."
----
-
 # /onboarding — Onboarding CRO
+
+> Optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
 
 Invoke the **onboarding** marketing skill and follow it for this task.
 

@@ -1,9 +1,6 @@
----
-name: competitors
-description: "Create competitor comparison or alternative pages for SEO and sales enablement."
----
-
 # /competitors — Competitor & Alternative Pages
+
+> Create competitor comparison or alternative pages for SEO and sales enablement.
 
 Invoke the **competitors** marketing skill and follow it for this task.
 

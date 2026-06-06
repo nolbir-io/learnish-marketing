@@ -1,9 +1,6 @@
----
-name: churn-prevention
-description: "Reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies."
----
-
 # /churn-prevention — Churn Prevention
+
+> Reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies.
 
 Invoke the **churn-prevention** marketing skill and follow it for this task.
 

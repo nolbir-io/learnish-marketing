@@ -1,9 +1,6 @@
----
-name: lead-magnets
-description: "Create, plan, or optimize a lead magnet for email capture or lead generation."
----
-
 # /lead-magnets — Lead Magnets
+
+> Create, plan, or optimize a lead magnet for email capture or lead generation.
 
 Invoke the **lead-magnets** marketing skill and follow it for this task.
 

@@ -135,17 +135,15 @@ def build_command(skill: str, fm: dict[str, str]) -> str:
         ", ".join(f"`/{r}`" for r in related) if related else "_none_"
     )
 
+    # Cursor project slash commands are plain Markdown: the filename is the
+    # command name and the whole file is the prompt body. No YAML frontmatter
+    # (that format is for skills/rules, and Cursor mis-handles it in commands).
     lines: list[str] = []
-    lines.append("---")
-    lines.append(f"name: {skill}")
-    if desc:
-        # Escape any stray double quotes for safe YAML.
-        safe = desc.replace('"', "'")
-        lines.append(f'description: "{safe}"')
-    lines.append("---")
-    lines.append("")
     lines.append(f"# /{skill} — {title}")
     lines.append("")
+    if desc:
+        lines.append(f"> {desc}")
+        lines.append("")
     lines.append(f"Invoke the **{skill}** marketing skill and follow it for this task.")
     lines.append("")
     lines.append("**Do this now:**")

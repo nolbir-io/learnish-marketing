@@ -1,9 +1,6 @@
----
-name: competitor-profiling
-description: "Research, profile, or analyze competitors from their URLs."
----
-
 # /competitor-profiling — Competitor Profiling
+
+> Research, profile, or analyze competitors from their URLs.
 
 Invoke the **competitor-profiling** marketing skill and follow it for this task.
 

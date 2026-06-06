@@ -1,9 +1,6 @@
----
-name: gtm-partnership-architecture
-description: "Build and scale partner ecosystems that drive revenue and platform adoption."
----
-
 # /gtm-partnership-architecture — Partnership Architecture
+
+> Build and scale partner ecosystems that drive revenue and platform adoption.
 
 Invoke the **gtm-partnership-architecture** marketing skill and follow it for this task.
 

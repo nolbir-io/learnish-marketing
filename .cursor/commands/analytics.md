@@ -1,9 +1,6 @@
----
-name: analytics
-description: "Set up, improve, or audit analytics tracking and measurement."
----
-
 # /analytics — Analytics Tracking
+
+> Set up, improve, or audit analytics tracking and measurement.
 
 Invoke the **analytics** marketing skill and follow it for this task.
 

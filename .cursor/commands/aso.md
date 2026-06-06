@@ -1,9 +1,6 @@
----
-name: aso
-description: "Audit or optimize an App Store or Google Play listing."
----
-
 # /aso — ASO Audit
+
+> Audit or optimize an App Store or Google Play listing.
 
 Invoke the **aso** marketing skill and follow it for this task.
 

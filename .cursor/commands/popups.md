@@ -1,9 +1,6 @@
----
-name: popups
-description: "Create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes."
----
-
 # /popups — Popup CRO
+
+> Create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.
 
 Invoke the **popups** marketing skill and follow it for this task.
 

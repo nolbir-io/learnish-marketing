@@ -1,9 +1,6 @@
----
-name: content-strategy
-description: "Plan a content strategy, decide what content to create, or figure out what topics to cover."
----
-
 # /content-strategy — Content Strategy
+
+> Plan a content strategy, decide what content to create, or figure out what topics to cover.
 
 Invoke the **content-strategy** marketing skill and follow it for this task.
 

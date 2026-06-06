@@ -1,9 +1,6 @@
----
-name: ai-seo
-description: "Optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers."
----
-
 # /ai-seo — AI SEO
+
+> Optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.
 
 Invoke the **ai-seo** marketing skill and follow it for this task.
 

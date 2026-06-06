@@ -1,9 +1,6 @@
----
-name: programmatic-seo
-description: "Create SEO-driven pages at scale using templates and data."
----
-
 # /programmatic-seo — Programmatic SEO
+
+> Create SEO-driven pages at scale using templates and data.
 
 Invoke the **programmatic-seo** marketing skill and follow it for this task.
 

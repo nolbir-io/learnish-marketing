@@ -1,9 +1,6 @@
----
-name: ad-creative
-description: "Generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform."
----
-
 # /ad-creative — Ad Creative
+
+> Generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform.
 
 Invoke the **ad-creative** marketing skill and follow it for this task.
 

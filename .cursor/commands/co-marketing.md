@@ -1,9 +1,6 @@
----
-name: co-marketing
-description: "Find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities."
----
-
 # /co-marketing — Co Marketing
+
+> Find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities.
 
 Invoke the **co-marketing** marketing skill and follow it for this task.
 

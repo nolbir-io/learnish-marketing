@@ -1,9 +1,6 @@
----
-name: cold-email
-description: "Write B2B cold emails and follow-up sequences that get replies."
----
-
 # /cold-email — Cold Email Writing
+
+> Write B2B cold emails and follow-up sequences that get replies.
 
 Invoke the **cold-email** marketing skill and follow it for this task.
 

@@ -1,9 +1,6 @@
----
-name: prospecting
-description: "Find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses."
----
-
 # /prospecting — Prospecting
+
+> Find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses.
 
 Invoke the **prospecting** marketing skill and follow it for this task.
 

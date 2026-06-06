@@ -1,9 +1,6 @@
----
-name: revops
-description: "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes."
----
-
 # /revops — RevOps
+
+> When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.
 
 Invoke the **revops** marketing skill and follow it for this task.
 

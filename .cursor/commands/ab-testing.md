@@ -1,9 +1,6 @@
----
-name: ab-testing
-description: "Plan, design, or implement an A/B test or experiment, or build a growth experimentation program."
----
-
 # /ab-testing — A/B Test Setup
+
+> Plan, design, or implement an A/B test or experiment, or build a growth experimentation program.
 
 Invoke the **ab-testing** marketing skill and follow it for this task.
 

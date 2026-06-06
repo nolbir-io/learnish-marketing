@@ -1,9 +1,6 @@
----
-name: site-architecture
-description: "Plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking."
----
-
 # /site-architecture — Site Architecture
+
+> Plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking.
 
 Invoke the **site-architecture** marketing skill and follow it for this task.
 

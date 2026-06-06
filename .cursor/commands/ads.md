@@ -1,9 +1,6 @@
----
-name: ads
-description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms."
----
-
 # /ads — Paid Ads
+
+> When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms.
 
 Invoke the **ads** marketing skill and follow it for this task.
 

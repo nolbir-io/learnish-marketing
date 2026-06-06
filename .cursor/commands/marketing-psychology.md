@@ -1,9 +1,6 @@
----
-name: marketing-psychology
-description: "Apply psychological principles, mental models, or behavioral science to marketing."
----
-
 # /marketing-psychology — Marketing Psychology & Mental Models
+
+> Apply psychological principles, mental models, or behavioral science to marketing.
 
 Invoke the **marketing-psychology** marketing skill and follow it for this task.
 

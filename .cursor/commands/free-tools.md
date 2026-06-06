@@ -1,9 +1,6 @@
----
-name: free-tools
-description: "Plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness."
----
-
 # /free-tools — Free Tool Strategy (Engineering as Marketing)
+
+> Plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.
 
 Invoke the **free-tools** marketing skill and follow it for this task.
 

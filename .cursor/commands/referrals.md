@@ -1,9 +1,6 @@
----
-name: referrals
-description: "Create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy."
----
-
 # /referrals — Referral & Affiliate Programs
+
+> Create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.
 
 Invoke the **referrals** marketing skill and follow it for this task.
 

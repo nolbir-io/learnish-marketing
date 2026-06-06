@@ -1,9 +1,6 @@
----
-name: signup
-description: "Optimize signup, registration, account creation, or trial activation flows."
----
-
 # /signup — Signup Flow CRO
+
+> Optimize signup, registration, account creation, or trial activation flows.
 
 Invoke the **signup** marketing skill and follow it for this task.
 
