@@ -2,7 +2,7 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phases 0–3 done — Foundation, GTM spine, and now Brand & voice (`brand-voice/`, `brand-review/`) all rewritten for Learnish. Next: Phase 4 (Measurement). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
+> **Status:** Phases 0–4 done — Foundation, GTM spine, Brand & voice, and now Measurement (`performance-analytics/`) all rewritten for Learnish. Next: Phase 5 (Competitive intelligence). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
 > **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
@@ -28,14 +28,14 @@
 | 1     | Foundation               | Done        | —      | product-marketing-context, README, brief, thesis, OQ register |
 | 2     | Strategy & GTM spine     | Done        | —      | Playbook, operating principles, 6-month plan rewritten for Learnish |
 | 3     | Brand & voice            | Done        | —      | Voice guide, language matrix, review rubric/log + READMEs rewritten for Learnish (dual parent/kid audience) |
-| 4     | Measurement              | Not started | —      | Funnel, KPIs                             |
+| 4     | Measurement              | Done        | —      | Funnel (live vs planned), KPI tree, WTP research, weekly report, experiments log |
 | 5     | Competitive intelligence | Not started | —      | Mostly replace                           |
 | 6     | Campaigns & content      | Not started | —      | Full rewrite                             |
 | 7     | SEO                      | Not started | —      |                                          |
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
 
-**Rough completion:** 3 / 8 phases done (Phase 1, Phase 2, Phase 3)
+**Rough completion:** 4 / 8 phases done (Phase 1, Phase 2, Phase 3, Phase 4)
 
 ---
 
@@ -156,19 +156,22 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 ## Phase 4 — Measurement
 
 
-| Task                   | File(s)                                           | Status      | Done |
-| ---------------------- | ------------------------------------------------- | ----------- | ---- |
-| Funnel definition      | `performance-analytics/funnel-definition.md`      | Not started | [ ]  |
-| KPI tree               | `performance-analytics/kpi-tree.md`               | Not started | [ ]  |
-| Experiments log        | `performance-analytics/experiments-log.md`        | Not started | [ ]  |
-| Weekly report template | `performance-analytics/weekly-report-template.md` | Not started | [ ]  |
-| Folder README          | `performance-analytics/README.md`                 | Not started | [ ]  |
+| Task                   | File(s)                                            | Status | Done |
+| ---------------------- | -------------------------------------------------- | ------ | ---- |
+| Funnel definition      | `performance-analytics/funnel-definition.md`       | Done   | [x]  |
+| KPI tree               | `performance-analytics/kpi-tree.md`                | Done   | [x]  |
+| Willingness-to-pay plan| `performance-analytics/willingness-to-pay-research.md` | Done | [x]  |
+| Experiments log        | `performance-analytics/experiments-log.md`         | Done   | [x]  |
+| Weekly report template | `performance-analytics/weekly-report-template.md`  | Done   | [x]  |
+| Folder README          | `performance-analytics/README.md`                  | Done   | [x]  |
 
 
 **Phase 4 exit criteria**
 
-- [ ] Funnel stages match Learnish buyer journey (not merchant signed → live → transacting)
-- [ ] North-star and supporting metrics defined in KPI tree
+- [x] Funnel stages match Learnish buyer journey (not merchant signed → live → transacting)
+- [x] North-star and supporting metrics defined in KPI tree
+
+> **Note — live vs planned:** App/courses aren't shipped (content rolls out entertainment → math → languages → other), so funnel/KPI stages are tagged `live` (STEAM store + workshops) vs `planned` (app digital tiers). WTP survey (Van Westendorp + Gabor-Granger) drafted to validate price points (OQ-001). "Active family" = Weekly Active Family primary, Monthly secondary (OQ-010).
 
 ---
 
@@ -286,7 +289,7 @@ Run before calling the migration complete:
 | `.agents/product-marketing-context.md` describes Learnish only                          | [x]  |
 | `README.md` describes Learnish only                                                     | [x]  |
 | Playbook north-star matches Learnish metric                                             | [x]  |
-| Funnel stages match Learnish journey                                                    | [ ]  |
+| Funnel stages match Learnish journey                                                    | [x]  |
 | ≥3 competitor profiles for Learnish                                                     | [ ]  |
 | ≥1 landing page draft exists                                                            | [ ]  |
 | Open questions register has Learnish-specific items                                     | [x]  |
@@ -322,6 +325,9 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Operating principles: LEGO / Duolingo / Disney | Replaces Apple/Google/Shopify "Own play"; moat = local in-person trust/community that global attention & EdTech apps can't replicate here | —     |
 | 2026-06-07 | Phase 1 Foundation rewritten for Learnish | `.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md` now describe Learnish; OQ register refreshed; thesis worksheet reset to blanks | —     |
 | 2026-06-07 | Phase 3 Brand & voice rewritten for Learnish | `brand-voice/` + `brand-review/` moved from Own (merchants) to Learnish; voice built on the dual parent(buy)/kid(use) audience with trust-wins rule, LEGO/Duolingo/Disney analogs, UZ/RU language matrix, and safety/claim hard gates in the review rubric | —     |
+| 2026-06-07 | Phase 4 Measurement rewritten for Learnish | `performance-analytics/` moved from Own merchant funnel to the Learnish family journey; funnel/KPIs tagged live (store+workshops) vs planned (app); WTP research (Van Westendorp + Gabor-Granger) added | —     |
+| 2026-06-07 | Funnel tagged live vs planned | App not shipped (content sequence: entertainment → math → languages → other); measure today's real surfaces (STEAM store + workshops), scaffold app metrics for launch | —     |
+| 2026-06-07 | Active family = Weekly primary, Monthly secondary | Lead retention reads on WAF (≥1 kid had a session in 7d); MAF smooths; pre-app proxy = workshop/store activity in 30d (closes OQ-010 definition) | —     |
 
 
 ---
@@ -334,9 +340,10 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Open:** Base store-credit rate (then 2× for Full Club) — watch margin impact.
 - **Open:** Confirm which line leads messaging — currently leaning **Learnish Club** membership.
 - **Fork source:** Repo content is Own (Uzbekistan e-commerce GTM). Repo name/remote already say `learnish-marketing`.
-- **Phase 1 + 2 + 3 done (2026-06-07):** Foundation (`.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md`, OQ register, thesis reset), the GTM spine (`docs/playbook/`, `docs/strategy/operating-principles.md`, `docs/plan-6m/`), and Brand & voice (`brand-voice/`, `brand-review/`) are all Learnish.
+- **Phase 1 + 2 + 3 + 4 done (2026-06-07):** Foundation, the GTM spine, Brand & voice, and Measurement (`performance-analytics/`) are all Learnish.
 - **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
-- **Next action:** Phase 4 — Measurement (`performance-analytics/`): funnel definition, KPI tree, experiments log, weekly report template. Validate willingness-to-pay and define funnel stages for the Learnish family journey.
+- **Product reality (affects measurement):** App/courses not shipped — only STEAM store + workshops are live today; course content rolls out entertainment → math → languages → other. Funnel/KPI docs tag stages live vs planned.
+- **Next action:** Phase 5 — Competitive intelligence (`competitor-profiles/`, `competitive-analysis/`, `competitive-brief/`): build ≥3 Learnish-relevant competitor profiles (attention vs category), a market map, and a battlecard template; archive the Own (Shopify/WooCommerce/Uzbekistan) profiles. Note the partial-reuse flag for STEAM/e-commerce research.
 
 ---
 

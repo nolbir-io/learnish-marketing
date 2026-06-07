@@ -6,15 +6,15 @@ Single source of truth for unresolved decisions and key assumptions for Learnish
 
 | ID | Question | Owner | Due date | Status | Decision / Notes |
 |---|---|---|---|---|---|
-| OQ-001 | Willingness to pay — validate Club price points (~$5–8/mo Digital; ~$18 / $40 / $60 Full Club) with parents | Marketing Lead | [set] | Open | Van Westendorp in Phase 4 (see `pricing/monetization-model.md`) |
+| OQ-001 | Willingness to pay — validate Club price points (~$5–8/mo Digital; ~$18 / $40 / $60 Full Club) with parents | Marketing Lead | [set] | In progress | Research plan + survey drafted: `performance-analytics/willingness-to-pay-research.md` (Van Westendorp + Gabor-Granger + workshop price test). Awaiting fielding |
 | OQ-002 | Base store-credit rate (then 2× for Full Club) — watch margin | Founder/CEO | [set] | Open | |
 | OQ-004 | The one habit mechanic the app is built around (streak / character / weekly ritual) | Product/Marketing Lead | [set] | Open | Retention engine; see operating principles (Duolingo). Note: bee mascot "Nish" now exists (D-013) |
 | OQ-005 | How generous the free layer is before the first paid gate | Marketing Lead | [set] | Open | Don't starve Club conversion; don't kill signups (north-star) |
 | OQ-007 | Founder bandwidth in early GTM (lighthouse workshops, founding-family relationships) | Founder/CEO | [set] | Open | |
 | OQ-008 | Capital envelope and monthly spend guardrails (incl. venue/kit float vs. acquisition) | Founder/CEO | [set] | Open | |
 | OQ-009 | Ambassador supply & comp model — how many we can run, what retains them | Community/Workshop Owner | [set] | Open | Comped with benefits, not payroll |
-| OQ-010 | Funnel stage definitions & "active family" criteria | Analytics Owner | [set] | Open | visit → signup → activated → Digital → Full Club |
-| OQ-011 | Attribution model for the first 6 months (workshop-sourced vs. referral vs. inbound) | Analytics Owner | [set] | Open | |
+| OQ-010 | Funnel stage definitions & "active family" criteria | Analytics Owner | [set] | In progress | Defined in `performance-analytics/funnel-definition.md`; active family = Weekly Active Family primary (≥1 kid session/7d), Monthly secondary. Needs sign-off |
+| OQ-011 | Attribution model for the first 6 months (workshop-sourced vs. referral vs. inbound) | Analytics Owner | [set] | In progress | Proposed: self-reported source at signup + workshop/referral tagging; defer multi-touch. See funnel-definition.md |
 | OQ-012 | Localization QA workflow and reviewer SLA (UZ/EN/RU) | Brand Lead | [set] | Open | Now three primary languages (D-014) |
 
 ## Decided (logged)
