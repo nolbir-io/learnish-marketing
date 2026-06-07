@@ -1,3 +1,5 @@
+> **ARCHIVED (Own fork).** This is the pre-Learnish, B2B/marketplace-escape sales deck for the **Own** product. It is kept for reference only and is **not** part of Learnish marketing. Learnish is a B2C, community/word-of-mouth-led product; its sales-style collateral is the [venue/partner pitch deck](../../../../sales-enablement/decks/venue-partner-deck.md). See [`docs/migration-tracker.md`](../../../../docs/migration-tracker.md) Phase 6.
+
 # Sales deck — Own (marketplace-escape primary)
 
 **Version:** v1.5 (Bloomberg/Apple voice tightening — see changelog)

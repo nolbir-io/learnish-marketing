@@ -2,7 +2,7 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phases 0–5 done — Foundation, GTM spine, Brand & voice, Measurement, and now Competitive intelligence (`competitor-profiles/`, `competitive-analysis/`, `competitive-brief/`) all rewritten for Learnish. Next: Phase 6 (Campaigns & content). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
+> **Status:** Phases 0–5 done; **Phase 6 exit criteria met** (workshop landing page, Phase 1 campaign brief, Own sales deck archived + replaced with a venue/partner deck). Remaining Phase 6 items (campaign README/phase-2-3 briefs/calendar, all of `content-creation/`) are deferred to a later pass per the "minimum first" scope. Next: finish Phase 6 content, then Phase 7 (SEO). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
 > **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
@@ -30,7 +30,7 @@
 | 3     | Brand & voice            | Done        | —      | Voice guide, language matrix, review rubric/log + READMEs rewritten for Learnish (dual parent/kid audience) |
 | 4     | Measurement              | Done        | —      | Funnel (live vs planned), KPI tree, WTP research, weekly report, experiments log |
 | 5     | Competitive intelligence | Done        | —      | 4 Learnish profiles (attention vs category), market map, battlecard; Own profiles archived |
-| 6     | Campaigns & content      | Not started | —      | Full rewrite                             |
+| 6     | Campaigns & content      | In progress | —      | Exit criteria met (LP + Phase 1 brief + deck); content-creation/ + remaining briefs deferred |
 | 7     | SEO                      | Not started | —      |                                          |
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
@@ -221,7 +221,7 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 | Task                            | File(s)                                                | Status      | Done |
 | ------------------------------- | ------------------------------------------------------ | ----------- | ---- |
 | Campaign README                 | `campaigns/README.md`                                  | Not started | [ ]  |
-| Phase 1 brief                   | `campaigns/phase-1-brief.md`                           | Not started | [ ]  |
+| Phase 1 brief                   | `campaigns/phase-1-brief.md`                           | Done        | [x]  |
 | Phase 2 brief                   | `campaigns/phase-2-brief.md`                           | Not started | [ ]  |
 | Phase 3 brief                   | `campaigns/phase-3-brief.md`                           | Not started | [ ]  |
 | Campaign calendar               | `campaigns/calendar.md`                                | Not started | [ ]  |
@@ -232,15 +232,17 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 | Instagram draft                 | `content-creation/social/instagram/2026-06.md`         | Not started | [ ]  |
 | LinkedIn draft                  | `content-creation/social/linkedin/2026-06.md`          | Not started | [ ]  |
 | Content README                  | `content-creation/README.md`                           | Not started | [ ]  |
-| Landing page (rename + rewrite) | `landing-pages/merchant-signup.md` → TBD               | Not started | [ ]  |
-| Sales deck (replace)            | `sales-enablement/decks/marketplace-escape-deck.md`    | Not started | [ ]  |
+| Landing page (rename + rewrite) | `landing-pages/merchant-signup.md` → `workshop-signup.md` | Done        | [x]  |
+| Sales deck (replace)            | `sales-enablement/decks/marketplace-escape-deck.md` → `venue-partner-deck.md` (Own deck archived) | Done | [x]  |
 
 
 **Phase 6 exit criteria**
 
-- [ ] At least one landing page draft with Learnish CTA
-- [ ] One campaign brief aligned to current playbook phase
-- [ ] Own-specific sales deck archived or replaced
+- [x] At least one landing page draft with Learnish CTA (`landing-pages/workshop-signup.md` — book-a-workshop)
+- [x] One campaign brief aligned to current playbook phase (`campaigns/phase-1-brief.md` — First 10 trusted families)
+- [x] Own-specific sales deck archived or replaced (archived to `_archive/own-fork/`; replaced by `venue-partner-deck.md`)
+
+> **Note — exit criteria met; remaining Phase 6 items deferred:** The three exit criteria are done (workshop landing page, Phase 1 brief, deck replaced). Still in Own/merchant voice and queued for a later pass: `campaigns/` README + phase-2/3 briefs + calendar, all of `content-creation/` (paid-ads, social READMEs + drafts, editorial calendar), per the agreed "minimum first, then expand" scope. Decided directions for that pass: workshop landing page is the lead LP; social = Instagram + Telegram + LinkedIn (LinkedIn repurposed for investors/partners/hiring); paid = a small local Tashkent workshop-promotion batch (community-led, not ad-led); English source + Uzbek-lead/RU translation; Club pricing shown as "intro pricing, being validated"; Nish kid-facing only.
 
 ---
 
@@ -295,7 +297,7 @@ Run before calling the migration complete:
 | Playbook north-star matches Learnish metric                                             | [x]  |
 | Funnel stages match Learnish journey                                                    | [x]  |
 | ≥3 competitor profiles for Learnish                                                     | [x]  |
-| ≥1 landing page draft exists                                                            | [ ]  |
+| ≥1 landing page draft exists                                                            | [x]  |
 | Open questions register has Learnish-specific items                                     | [x]  |
 
 
@@ -335,6 +337,11 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Phase 5 Competitive intelligence rewritten for Learnish | Replaced Own (Shopify/WooCommerce) with 4 Learnish profiles on the attention-vs-category frame; archived Own profiles; reused local-commerce facts for the toy store | —     |
 | 2026-06-07 | Competitor frame = attention vs category | Two competitions: attention (YouTube/TikTok/Roblox) frames the problem+guilt; category (Khan/Duolingo apps, KiwiCo/MEL kits, local centers, Uzum toys) frames the spend. Moat = local in-person trust no global player can match | —     |
 | 2026-06-07 | Local centers: compete AND partner | Local tutoring centers/kids clubs own the trust Learnish wants; convert them into workshop venues (the model's 30% share) rather than pure rivals | —     |
+| 2026-06-07 | Phase 6 started — exit criteria first | Built the 3 exit-criteria deliverables before the full content rewrite: workshop landing page, Phase 1 brief, deck replacement. Remaining `campaigns/` + `content-creation/` deferred to a later pass | —     |
+| 2026-06-07 | Lead landing page = workshop signup | App/courses not shipped; workshops are the live surface and top of the flywheel. Replaced `merchant-signup.md` (book-a-launch-call) with `workshop-signup.md` (book-a-weekend-workshop-seat); secondary CTA = free family account | —     |
+| 2026-06-07 | Sales deck → venue/partner deck | Learnish is B2C/word-of-mouth-led, so a B2B sales deck doesn't fit; the only "sales" motion that matters is recruiting local centers as workshop venues (40/30/30 split). Own deck archived to `_archive/own-fork/`; new `venue-partner-deck.md` created | —     |
+| 2026-06-07 | "First 10 trusted families" framing | Renamed Phase 1 cohort from "founding families" to "first 10 trusted families" (per founder); chosen for trust + referral reach, not revenue | —     |
+| 2026-06-07 | Public pricing = "intro, being validated" | Show Club tiers honestly with a validation caveat (WTP is Phase 4); never present unvalidated prices as final. Store/site = `learnish.uz`. Workshop specifics kept as `[PROOF — to collect]` placeholders | —     |
 
 
 ---
@@ -351,7 +358,8 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
 - **Product reality (affects measurement):** App/courses not shipped — only STEAM store + workshops are live today; course content rolls out entertainment → math → languages → other. Funnel/KPI docs tag stages live vs planned.
 - **Phase 5 research debt:** Profiles are desk-level — the priority follow-up is naming **real local competitors** (Tashkent tutoring chains, kids clubs, local STEAM-toy sellers) and verifying pricing/figures.
-- **Next action:** Phase 6 — Campaigns & content (`campaigns/`, `content-creation/`, `landing-pages/`, `sales-enablement/`): at least one landing page draft with the Learnish CTA, one campaign brief tied to the current playbook phase, and archive/replace the Own sales deck. Lead messaging with safe & trusted + STEAM toys/workshops (per brand voice), and the anti-YouTube / local-vs-global wedges from Phase 5.
+- **Phase 6 exit criteria met (2026-06-07):** workshop landing page (`landing-pages/workshop-signup.md`), Phase 1 brief (`campaigns/phase-1-brief.md`, "first 10 trusted families"), and the Own sales deck archived + replaced by `sales-enablement/decks/venue-partner-deck.md`.
+- **Next action:** Finish the rest of Phase 6 content (still Own-voiced): `campaigns/` README + phase-2/3 briefs + calendar, and all of `content-creation/` (paid-ads README + local Tashkent batch, social README + Instagram/Telegram/LinkedIn drafts + calendar, editorial calendar, content README). Lead messaging with safe & trusted + STEAM toys/workshops (per brand voice) and the anti-YouTube / local-vs-global wedges from Phase 5. Then Phase 7 (SEO).
 
 ---
 
