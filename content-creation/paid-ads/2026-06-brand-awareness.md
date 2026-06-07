@@ -1,391 +1,212 @@
-# Paid ads — Brand awareness & follower growth (Wave 1)
+# Paid ads — Local workshop promotion & community growth (Wave 1)
 
-**Objective:** Grow Own's follower base, organic reach, and brand awareness in Uzbekistan. This is a top-of-funnel awareness layer — **not** a lead-gen or call-booking push.
-**Primary KPI:** Followers gained (Instagram + Telegram + LinkedIn), reach / unique users, profile visits, video views (VTR), CPM.
-**Secondary KPI:** Saves, shares, follows-per-1k-reach, branded-search lift.
-**Phase tie-in:** Awareness primer that runs alongside founder-led **Phase 1 — First 10** and seeds the repeatable-acquisition motion in **Phase 2 — First 100** (`campaigns/phase-2-brief.md`).
-**Market / geo:** Uzbekistan (Tashkent first, then Samarkand, Andijan, Fergana, Namangan, Bukhara).
-**Languages:** Uzbek (primary), Russian (secondary), English (optional). Yandex drafted Russian-first; see localization note at the bottom.
+**Objective:** Fill the first free weekend workshops in Tashkent and grow Learnish's local following (Instagram + Telegram). This is a small, **community-led top-up** layer — **not** a primary acquisition engine and **not** a hard "buy the Club" push.
+**Primary KPI:** Free-workshop bookings (landing page CTA) + Telegram community joins.
+**Secondary KPI:** Instagram follows, reach / unique users, profile visits, video views (VTR), saves/shares, cost per booking.
+**Phase tie-in:** Demand top-up for founder-led **Phase 1 — First 10 trusted families** (`../../campaigns/phase-1-brief.md`); seeds the repeatable motion in **Phase 2 — First 100** (`../../campaigns/phase-2-brief.md`).
+**Market / geo:** Tashkent first, **district-level** targeting around each confirmed venue (start 1–2 districts).
+**Languages:** Uzbek (primary, parent first-touch), Russian (secondary), English (optional). See localization note at the bottom.
 **Status:** Draft → pending brand-review.
 
-> **Strategic note.** "Followers, organic reach, and brand awareness" are *reach/engagement* goals, not conversion goals. So every platform here is set to its awareness/engagement objective with a **soft CTA** (Follow, Watch, Learn) — never "Book a call." Run light test budgets, judge creative only after ~1,000+ impressions per asset, and let the strongest 2–3 angles carry the spend. In the CIS the most reliable owned-audience asset is the **Telegram channel**, so Telegram-follow is the primary conversion event for Google and Yandex (which can't grow Instagram follows natively); Meta carries Instagram/Facebook follows.
+> **Strategic note — run a community, not feature ads.** The trust is built in the room, not in the ad. Every platform here is set to its awareness/traffic objective with a **soft CTA** (Book a free workshop / Join our Telegram / Follow) — never "Buy the Club." Run light test budgets, judge creative only after ~1,000+ impressions per asset, and let the strongest 1–2 angles carry the spend. In Uzbekistan the most reliable owned-audience asset is the **Telegram channel/group**, so a Telegram join is a primary conversion event alongside a free-workshop booking on the landing page.
 
-> **Lead framing — run a movement, not feature ads.** People follow movements, not infrastructure. Per [`docs/strategy/operating-principles.md`](../../docs/strategy/operating-principles.md) (the Shopify "arm the rebels" principle), the campaign's lead angle is a **merchant-identity movement: "Owners, not renters."** Uzbek merchants who own their commerce — storefront, customer, data, economics — instead of renting it from a marketplace. Feature/proof angles (local rails, customer ownership) become the *evidence* underneath the movement, not the headline. The rallying line is **"Own it. Don't rent it."** and the community identity is **Owners**.
+> **Lead framing — the free first workshop.** Per the [voice guide](../../brand-voice/voice-guide.md), lead with **safe & trusted = reviewed, age-appropriate content** and the **tangible workshop** ("a safe, exciting Saturday your child builds something real"). Angle **S (Safe & trusted)** leads; the other angles supply proof and delight. The rallying offer is **"Your first workshop is free."** Nish, the Learnish bee, appears only in kid-facing creative — never in the parent trust line.
 
 ---
 
 ## Creative angles (shared across platforms)
 
-Derived from the established social themes so paid and organic reinforce each other. **Angle M leads**; A–E supply the proof.
+Derived from the established social themes so paid and organic reinforce each other. **Angle S leads**; W/L/A/T supply proof and delight.
 
 | # | Angle | Core idea | Best for |
 |---|-------|-----------|----------|
-| **M** | **Merchant movement (lead)** | **"Owners, not renters." Own it. Don't rent it. — a merchant identity to join.** | **Follower growth, brand recall** |
-| A | Marketplace-escape | "A marketplace is someone else's mall — it's *a* channel, not *the* channel." | Awareness, saves |
-| B | Customer ownership | "You rent the customer on a marketplace. Own makes them yours." | Engagement, follows |
-| C | Local rails | "Built around the rails that move money and goods in Uzbekistan." | Credibility, reach |
-| D | Category thesis | "Uzbekistan needs commerce infrastructure, not another listing." | Reach, brand recall |
-| E | Own your commerce / follow-us | Identity + explicit "follow for practical commerce takes." | Follower growth |
+| **S** | **Safe & trusted (lead)** | **"Vetted teachers, reviewed age-appropriate projects, other parents in the room. First workshop free."** | Bookings, parent trust |
+| W | Weekend workshop / what they build | "This Saturday your child builds a working robot hand." | Bookings, saves |
+| L | Local & human | "Real local teachers, in your district — not a global app translated into Uzbek." | Trust, reach |
+| A | Make screen time count | "Turn one Saturday of scrolling into something they made." | Reach, engagement |
+| T | STEAM toys / hands-on | "Real kits, real building — learning they can hold." | Engagement, follows |
 
 ---
 
 # 1) Audience configuration
 
-## Google Ads
+## Meta (Facebook + Instagram) — primary
 
-**Recommended campaign types (awareness + follows):**
-- **Demand Gen** — primary. Image + video across YouTube, Discover, Gmail; the closest Google gets to social-style awareness and engagement.
-- **YouTube video (reach / video views)** — bumper (6s) for frequency + skippable in-stream (15–30s) for story.
-- **Display (GDN)** — cheap incremental reach and retargeting.
-- *(Optional)* one **Search RSA** on category/alternative terms to catch active demand and point it at the blog/social, not a hard CTA.
-
-**Bid strategy:** Demand Gen → maximize clicks or conversions set to "Telegram follow" / "profile visit"; YouTube → target CPM (tCPM) or CPV; Display → viewable CPM. Frequency cap ~3/day, 8/week.
+**Recommended objective:** **Traffic → workshop landing page** and **Engagement → page/profile follows** running in parallel. Instagram Reels + Stories + Feed (Advantage+ placements on). Soft CTA buttons only ("Book now" → landing page / "Learn more" / "Follow").
+**Optimization:** Traffic set → landing-page views/bookings; Engagement set → follows. Frequency cap ~2 / 7 days.
 
 | Layer | Configuration |
 |-------|---------------|
-| Geo | Uzbekistan; bid-up Tashkent. Presence-based ("people in") only. |
-| Language | Uzbek + Russian (Google targets browser/UI language). |
-| Age / gender | 25–54, all genders (owner/operator skew). |
-| Custom segments (intent) | People who searched / browse: "Uzum seller", "Yandex Market merchant", "Ozon продавец", "интернет магазин Узбекистан", "e-commerce platform", "Shopify", "marketplace komissiya". |
-| In-market | Business Services, Business Software, Web Design/Development. |
-| Affinity / detailed demographics | Small business owners, entrepreneurs. |
-| Customer Match | Upload known merchant / waitlist emails → seed + similar segments. |
-| Remarketing | Site visitors, YouTube channel viewers, prior video viewers (25/50/75%). |
-| Exclusions | Existing merchants, employees, job-seeker / careers traffic, irrelevant content categories. |
+| Geo | **Tashkent, district-level radius around each confirmed venue** (e.g. Yunusobod). Presence-based ("people who live here"). |
+| Language | Uzbek + Russian ("People in this location"). |
+| Age / gender | 28–45, all genders (parent skew). |
+| Core interests | Parenting, Kids' education, STEAM/STEM, Robotics for kids, LEGO, Science kits, Children's books, Family activities, Tutoring/after-school, Duolingo, Khan Academy. Layer with AND for precision, then test broad. |
+| Behaviors | Parents (kids 5–12 and teens 13–17 where available). |
+| Custom audiences | IG/FB engagers (365d), video viewers (25%+), workshop-landing-page visitors, signup/waitlist list. |
+| Lookalikes | 1–3% from engagers + founding-family list (seed ≥100). |
+| Exclusions | Existing Club families, current followers (for the *acquisition* set), staff/ambassadors. |
+| Placements | Reels + Stories first (cheapest reach + delight), then Feed/Explore. |
 
-## Meta (Facebook + Instagram)
+## Telegram (channel + Telegram Ads)
 
-**Recommended objective:** **Engagement → Page likes / follows** and **Awareness (reach)** running in parallel. Use Instagram Reels + Stories + Feed placements (Advantage+ placements on).
-**Optimization:** Awareness set → reach with frequency cap 2/7 days; Engagement set → page/profile follows. Soft CTA buttons only ("Follow page" / "Like page" / "Learn more").
-
-| Layer | Configuration |
-|-------|---------------|
-| Geo | Uzbekistan; can split Tashkent vs. rest for budget control. |
-| Language | Uzbek + Russian (set "People in this location"). |
-| Age / gender | 25–54, all genders. |
-| Core interests | Online shopping, E-commerce, Small business, Entrepreneurship, Telegram, Uzum, Yandex, Ozon, Digital marketing, Shopify. Layer 2 interests with AND for precision, then test broad. |
-| Behaviors | Small business owners; admins of business/e-commerce pages. |
-| Custom audiences | IG/FB engagers (365d), video viewers (25%+), site visitors, customer/waitlist list. |
-| Lookalikes | 1–3% from engagers + customer list (seed ≥100, ideally 1,000+). |
-| Exclusions | Existing followers (for the *acquisition* set), current merchants, employees. |
-| Placements | Reels + Stories first (cheapest reach + follow), then Feed/Explore. |
-
-## Yandex (Yandex Direct)
-
-**Recommended campaign types:**
-- **Медийная кампания (Media / display reach)** — primary for awareness; banner + video inventory across Yandex and RSYA (Рекламная сеть Яндекса) with reach optimization and frequency cap.
-- **Text & Image ads on RSYA** — cheap contextual reach; drives clicks to the Telegram channel / site.
-- *(Optional)* **Search** on category/alternative keywords for active demand.
-- Yandex cannot grow Instagram follows directly → **route Yandex traffic to the Telegram channel and site**, which is the realistic owned-audience win in the CIS.
+**Recommended approach:**
+- **Telegram channel/group** as the owned-audience destination — the realistic owned-audience win in Uzbekistan. Route paid traffic to join the per-district group and to the free-workshop landing page.
+- **Telegram Ads** (where available) — short text/CTA on relevant Uzbek/Russian parenting & education channels; soft CTA to the channel or landing page.
+- Cross-promote in local school/parent Telegram groups organically (founder/ambassador), not paid.
 
 | Layer | Configuration |
 |-------|---------------|
-| Geo | Uzbekistan; bid-up Tashkent. |
-| Language / inventory | Russian-language inventory primary; Uzbek where available. |
-| Demographics | 25–54, all genders (Yandex Audience socio-dem). |
-| Interests (Yandex Audience / interest categories) | E-commerce, Business & B2B, Online stores, Entrepreneurship, IT/SaaS. |
-| Keywords (search / contextual) | "интернет магазин Узбекистан", "создать интернет магазин", "маркетплейс комиссия", "Uzum продавец", "Ozon продавец", "Яндекс Маркет продавец", "Telegram магазин". |
-| Yandex Audience segments | Lookalike from site-pixel (Yandex Metrica) visitors + uploaded CRM/email list. |
-| Retargeting | Metrica goals: site visitors, Telegram-link clickers, video viewers. |
-| RSYA placement controls | Exclude low-quality / irrelevant placements after first week; review placement report. |
-| Exclusions | Existing merchants, converted users (7–14d), known employee IPs. |
+| Geo / inventory | Uzbek- and Russian-language parenting, kids' education, and Tashkent-local channels. |
+| Targeting | Parenting / education / kids-activities channels and topics. |
+| Destination | Per-district Telegram group + workshop landing page. |
+| Exclusions | Existing Club-family group members. |
 
-**Cross-platform audience-size sanity check** (`paid-ads/audience-targeting` guidance): keep prospecting audiences broad enough to exit learning (Meta/Display 100k+, Search 1k+ searches/mo). Too narrow = expensive and slow.
+## Google / YouTube — *reserve for Phase 3*
+
+Not in this local wave. At scale (Phase 3), add YouTube reach + Search on parent-intent terms ("STEAM for kids Tashkent", "courses for kids", "bolalar uchun to'garak") routed to the landing page. Keep out of the small local batch.
+
+**Audience-size sanity check:** keep prospecting audiences broad enough to exit learning (Meta 50k+ in a district cluster). Too narrow = expensive and slow; widen the radius before lowering relevance.
 
 ---
 
 # 2) Ad creative
 
-Character counts in `()`. Limits enforced per `.agents/skills/ad-creative/references/platform-specs.md`. English is source; Cyrillic counts re-validate after localization.
+Character counts in `()`. Limits enforced per [`.agents/skills/ad-creative/references/platform-specs.md`](../../.agents/skills/ad-creative/references/platform-specs.md). English is source; Uzbek/Cyrillic counts re-validate after localization.
 
-## Angle M — Merchant movement (lead)
+## Angle S — Safe & trusted (lead)
 
-> The rallying angle: a merchant *identity* to join, not a product to evaluate. "Owners, not renters." Lead every platform's rotation with this; let A–E supply the proof. CTA is explicit: **Follow / Join**.
+> The lead angle: a parent deciding what their child does with a Saturday wants calm confidence. Lead every platform's rotation with this. CTA: **Book a free workshop**.
 
-### GADS-AWR-M · Google Demand Gen / Display
-**Business name (25):** `Own` (3)
-
-**Short headlines (≤30):**
-1. `Own It. Don't Rent It.` (22)
-2. `Be an Owner, Not a Renter` (25)
-3. `Join Uzbekistan's Owners` (24)
-4. `Merchants Who Own It` (20)
-5. `Own Your Commerce` (17)
-
-**Long headlines (≤90):**
-1. `Own it. Don't rent it. Build commerce that's actually yours.` (60)
-2. `Join the Uzbek merchants who own their storefront, customer, and data.` (70)
-
-**Descriptions (≤90):**
-1. `A movement of Uzbek merchants who own their commerce, not rent it. Follow Own.` (78)
-2. `Own your storefront, customer, data, and economics. Join the Owners.` (68)
-
-### META-AWR-M · Meta (Reels / follow CTA)
+### META-AWR-S · Meta (Reels / Feed, traffic CTA)
 **Primary text:**
-> `Some merchants rent their business from a marketplace. Owners don't.` (68)
+> `A safe, exciting Saturday for your child — and you're welcome to stay.` (57)
 >
-> `Own your storefront, your customer, your data, your economics — built on the rails that actually move money and goods in Uzbekistan.`
+> `Vetted teachers, reviewed age-appropriate projects, and other parents in the room. Your child builds something real and brings it home.`
 >
-> `Follow to join the Uzbek merchants who own their commerce. Own it. Don't rent it.`
+> `Your first workshop is free. Book a seat this weekend in [district].` `[PROOF — confirm venue + date]`
 
 **Headlines (≤40):**
-1. `Own it. Don't rent it.` (22)
-2. `Be an Owner, not a renter` (25)
+1. `First workshop free` (19)
+2. `Safe, exciting, hands-on` (23)
 
-**Description (≤30):** `Join the Owners` (15)
+**Description (≤30):** `Vetted teachers, real builds` (28)
 
-### YDX-AWR-M · Yandex Text & Image (RSYA) / Media — *Russian-first*
-- **Title 1 (≤56):** `Владейте бизнесом — не арендуйте его` (~36)
-- **Title 2 (≤30):** `Own — для тех, кто владеет` (~26)
-- **Text (≤81):** `Магазин, клиенты и данные — ваши. Присоединяйтесь к тем, кто владеет.` (~68)
-- **Display path (≤20):** `own` (3)
-- *EN gloss:* "Own your business — don't rent it / Own — for those who own / Store, customers and data — yours. Join those who own."
+### TG-AWR-S · Telegram (channel post / Telegram Ads)
+- **Text:** `Free weekend workshop for kids 5–17 in [district]: vetted teachers, reviewed age-appropriate projects, parents welcome to stay. Book a seat / join our group.` `[PROOF — venue + date]`
+- **CTA:** `Book a free workshop` → landing page · `Join the group` → district Telegram
 
 ---
 
-## Angle A — Marketplace-escape
+## Angle W — Weekend workshop / what they build
 
-### GADS-AWR-A · Google Demand Gen / Display
-**Business name (25):** `Own` (3)
-
-**Short headlines (≤30):**
-1. `Sell Beyond the Marketplace` (27)
-2. `Marketplaces Are One Channel` (28)
-3. `Own Your Store, Not a Rental` (28)
-4. `A Marketplace Isn't Forever` (27)
-5. `One Channel Isn't a Business` (28)
-
-**Long headlines (≤90):**
-1. `Marketplaces start your business. They don't run it.` (52)
-2. `A marketplace is a great channel — until it's the only place you sell.` (69)
-
-**Descriptions (≤90):**
-1. `Marketplaces are a channel, not the channel. See what owning yours looks like.` (78)
-2. `Keep marketplaces in your mix and add the channels you actually own.` (67)
-
-### META-AWR-A · Meta (Reels / Feed)
-**Primary text** (hook front-loaded, ≤125 visible / 2,200 max):
-> `A marketplace is someone else's mall. A great place to be — until it's the only place you sell.` (95)
->
-> `Own keeps marketplaces in your mix and adds the channels you own: a storefront and Telegram, with Humo, Uzcard, BTS and Yandex delivery wired in.`
->
-> `Follow for practical takes on building commerce you actually own in Uzbekistan.`
-
-**Headlines (≤40):**
-1. `Marketplaces are one channel` (28)
-2. `Own your store. Keep your customer.` (35)
-
-**Description (≤30):** `Follow @own` (11)
-
-### YDX-AWR-A · Yandex Text & Image (RSYA) — *Russian-first*
-- **Title 1 (≤56):** `Маркетплейс — это не вся ваша торговля` (~38)
-- **Title 2 (≤30):** `Own — ваша платформа` (~20)
-- **Text (≤81):** `Свой магазин, Telegram, Humo, Uzcard, доставка BTS и Яндекс — одна система.` (~75)
-- **Display path (≤20):** `magazin` (7)
-- *EN gloss:* "A marketplace isn't your whole business / Own — your platform / Your store, Telegram, Humo, Uzcard, BTS & Yandex delivery — one system."
-
----
-
-## Angle B — Customer ownership
-
-### GADS-AWR-B · Google Demand Gen / Display
-**Short headlines (≤30):**
-1. `Own the Customer Relationship` (29)
-2. `Your Brand. Your Customer.` (26)
-3. `Stop Renting Your Customers` (27)
-4. `The Customer Should Be Yours` (28)
-
-**Long headlines (≤90):**
-1. `On a marketplace you rent the customer. On Own, they're yours.` (62)
-2. `Order history, contacts, repurchase data — in your instance, in-country.` (72)
-
-**Descriptions (≤90):**
-1. `No commission on direct orders. Your brand, your customer, your data.` (69)
-2. `The customer who buys today shouldn't be unreachable tomorrow.` (61)
-
-### META-AWR-B · Meta (Reels)
+### META-AWR-W · Meta (Reels)
 **Primary text:**
-> `You sold 1,000 orders on the marketplace last month. Can you email those customers tomorrow?` (92)
+> `This Saturday, your child builds a working robot hand — and takes it home.` (72) `[PROOF — confirm project]`
 >
-> `Probably not — the marketplace owns the customer record, not you. On Own, the customer is yours: order history, contacts, repurchase behavior, in your instance and in-country.`
+> `Hands-on, with a vetted teacher, in [district]. Reviewed and age-appropriate for kids 5–17.`
 >
-> `Follow for more on owning your commerce.`
+> `First workshop free. Book a seat.`
 
 **Headlines (≤40):**
-1. `Own your customers` (18)
-2. `Your customer, not the platform's` (33)
+1. `Build something real this weekend` (33)
+2. `First workshop free` (19)
 
-**Description (≤30):** `Your brand. Your customer.` (26)
-
-### YDX-AWR-B · Yandex Text & Image (RSYA)
-- **Title 1 (≤56):** `На маркетплейсе клиент не ваш` (~29)
-- **Title 2 (≤30):** `С Own — клиент ваш` (~18)
-- **Text (≤81):** `История заказов, контакты и повторные продажи — в вашей системе, в стране.` (~73)
-- **Display path (≤20):** `klienty` (7)
-- *EN gloss:* "On a marketplace the customer isn't yours / With Own — the customer is yours / Order history, contacts & repeat sales — in your system, in-country."
+**Description (≤30):** `Hands-on, ages 5–17` (20)
 
 ---
 
-## Angle C — Local rails
+## Angle L — Local & human
 
-### GADS-AWR-C · Google Demand Gen / Display
-**Short headlines (≤30):**
-1. `Built for Uzbekistan Commerce` (29)
-2. `Storefront + Telegram + More` (28)
-3. `Humo, Uzcard, BTS, Yandex` (25)
-4. `Local Rails, One Platform` (25)
-
-**Long headlines (≤90):**
-1. `Built around the rails that move money and goods in Uzbekistan.` (62)
-2. `Storefront, Telegram, Humo, Uzcard, BTS and Yandex delivery — one system.` (73)
-
-**Descriptions (≤90):**
-1. `Storefront, Telegram, Humo, Uzcard, BTS and Yandex delivery — one operating system.` (83)
-2. `Local payments and delivery, wired in on day one. Not bent to a global template.` (79)
-
-### META-AWR-C · Meta (Feed / Single image)
+### META-AWR-L · Meta (Feed / single image)
 **Primary text:**
-> `Telegram is where they spend their time. Uzcard and Humo are the cards they carry. BTS and Yandex are who they expect to deliver.` (127 → trim visible hook below)
+> `Not a global app translated into Uzbek. Real local teachers, in your district, with your child in the room.` (108)
 >
-> *Visible-hook trim (≤125):* `Telegram is where they spend time. Uzcard and Humo are the cards they carry. BTS and Yandex are who delivers.` (109)
+> `Reviewed, age-appropriate projects kids actually build by hand — and parents are welcome to stay.`
 >
-> `Own wires it all into one operating system, so you sell where buyers already are. Follow to see how the local stack fits together.`
+> `First workshop free. Follow to see what families in [district] are building.`
 
 **Headlines (≤40):**
-1. `Built for Uzbekistan commerce` (29)
-2. `One platform, local rails` (25)
+1. `Your neighborhood's weekend program` (34)
+2. `Real teachers, in your district` (31)
 
-**Description (≤30):** `Storefront + Telegram + more` (28)
-
-### YDX-AWR-C · Yandex Text & Image (RSYA)
-- **Title 1 (≤56):** `Создано для торговли в Узбекистане` (~34)
-- **Title 2 (≤30):** `Humo, Uzcard, BTS, Яндекс` (~25)
-- **Text (≤81):** `Свой магазин и Telegram, местные платежи и доставка — в одной системе.` (~69)
-- **Display path (≤20):** `platforma` (9)
-- *EN gloss:* "Built for commerce in Uzbekistan / Humo, Uzcard, BTS, Yandex / Your store and Telegram, local payments and delivery — in one system."
+**Description (≤30):** `Local, vetted, hands-on` (23)
 
 ---
 
-## Angle D — Category thesis (reach / brand recall)
+## Angle A — Make screen time count
 
-### GADS-AWR-D · Google Demand Gen / Display
-**Short headlines (≤30):**
-1. `Not a Marketplace Listing` (25)
-2. `Commerce Infrastructure` (23)
-3. `The OS for Uzbek Commerce` (25)
-4. `Marketplaces Built Reach` (24)
-
-**Long headlines (≤90):**
-1. `Uzbekistan needs commerce infrastructure, not another marketplace listing.` (74)
-2. `Marketplaces built distribution. Own builds the infrastructure underneath.` (74)
-
-**Descriptions (≤90):**
-1. `A young market, fast e-commerce growth, and almost all of it on three platforms.` (80)
-2. `Own runs your commerce across the channels you own. Follow the build.` (68)
-
-### META-AWR-D · Meta (Feed / Quote card)
+### META-AWR-A · Meta (Reels / Stories)
 **Primary text:**
-> `Uzbekistan has 36M+ people and the fastest-growing e-commerce market in Central Asia. Almost all of that volume runs through three marketplaces.` (143 → hook trim below)
+> `One Saturday of scrolling — or one thing they built with their hands?` (68)
 >
-> *Visible-hook trim (≤125):* `36M+ people. The fastest-growing e-commerce market in Central Asia. Almost all of it on three marketplaces.` (106)
+> `Learnish runs safe, vetted weekend workshops for kids 5–17. Reviewed, age-appropriate, hands-on. Parents welcome.`
 >
-> `Marketplaces built distribution; they didn't build infrastructure. That gap is what Own is building. Follow for the thesis.`
+> `Trade an afternoon of screen time for something they made. First workshop free.`
 
 **Headlines (≤40):**
-1. `The OS for Uzbekistan commerce` (30)
-2. `Not a marketplace. Infrastructure.` (34)
+1. `Make screen time worth it` (25)
+2. `Something they made, not watched` (32)
 
-**Description (≤30):** `Follow the build` (16)
+**Description (≤30):** `Safe, hands-on, ages 5–17` (25)
 
-### YDX-AWR-D · Yandex Text & Image / Media
-- **Title 1 (≤56):** `Узбекистану нужна инфраструктура торговли` (~41)
-- **Title 2 (≤30):** `Не ещё один маркетплейс` (~23)
-- **Text (≤81):** `Маркетплейсы создали трафик. Own создаёт инфраструктуру под ним.` (~63)
-- **Display path (≤20):** `own` (3)
-- *EN gloss:* "Uzbekistan needs commerce infrastructure / Not another marketplace / Marketplaces built traffic. Own builds the infrastructure beneath it."
+> Voice note: name the screen-time tension *gently*; never position Learnish as "more screen time" or shame parents (per voice guide).
 
 ---
 
-## Angle E — Own your commerce / explicit follow
+## Angle T — STEAM toys / hands-on (kid delight; Nish allowed)
 
-### GADS-AWR-E · Google Demand Gen / Display
-**Short headlines (≤30):**
-1. `Follow Own for Uzbek Commerce` (29)
-2. `Own Your Commerce` (17)
-3. `Build Commerce You Own` (22)
-4. `Watch Own Get Built` (19)
-
-**Long headlines (≤90):**
-1. `Own your storefront, your customer, your data, and your economics.` (66)
-2. `Practical, no-hype takes on building commerce in Uzbekistan. Follow Own.` (71)
-
-**Descriptions (≤90):**
-1. `Follow Own for practical takes on building commerce you actually own.` (69)
-2. `Every layer of your operation, in your control. Follow to see how.` (66)
-
-### META-AWR-E · Meta (Reels / follow CTA)
+### META-AWR-T · Meta (Reels, kid-facing energy)
 **Primary text:**
-> `"Own your commerce" gets thrown around a lot. We mean it literally.` (67)
+> `Real kits. Real building. Learning they can hold.` (50)
 >
-> `Your storefront. Your customer. Your data. Your economics. Your stack — modular, headless, no lock-in.`
+> `From volcanoes that actually erupt to robot hands that actually move — kids 5–17 build it themselves, with a vetted teacher.`
 >
-> `Follow for practical, no-hype takes on building commerce you actually own in Uzbekistan.`
+> `Come build something real this weekend. First workshop free.`
 
 **Headlines (≤40):**
-1. `Own your commerce` (17)
-2. `Follow for the build` (20)
+1. `Build it yourself` (16)
+2. `Learning you can hold` (21)
 
-**Description (≤30):** `Follow @own` (11)
+**Description (≤30):** `Hands-on STEAM, ages 5–17` (25)
 
-### YDX-AWR-E · Yandex Text & Image (RSYA)
-- **Title 1 (≤56):** `Стройте торговлю, которой владеете вы` (~37)
-- **Title 2 (≤30):** `Подпишитесь на Own` (~18)
-- **Text (≤81):** `Магазин, клиент, данные и экономика — под вашим контролем. Подписывайтесь.` (~73)
-- **Display path (≤20):** `own` (3)
-- *EN gloss:* "Build commerce that you own / Follow Own / Store, customer, data and economics — under your control. Subscribe."
+*(Nish, the bee, can carry the kid-facing line "Come build something real this weekend — bring a friend!" in this angle only.)*
 
 ---
 
-# 3) Video scripts (YouTube + Meta Reels + Yandex video)
+# 3) Video scripts (Meta Reels / Stories; reserve YouTube for Phase 3)
 
-Awareness video should land the brand in the first 2 seconds and end on a follow cue. Vertical 9:16 for Reels/Shorts; 16:9 for in-stream. **Lead the rotation with the movement spot (VID-AWR-00).**
+Vertical 9:16. Land the promise in the first 2 seconds; end on a soft CTA (Book / Follow). Burn in captions (most viewers watch sound-off); provide Uzbek + Russian caption tracks. **Lead the rotation with VID-AWR-00 (Safe & trusted).**
 
-### VID-AWR-00 · Bumper (6s, no sound assumed) — Merchant movement (lead)
-- (0–2s) On-screen: **"Some merchants rent their business."**
-- (3–5s) **"Owners don't. Own it — don't rent it."**
-- (6s) Logo + **"Follow Own · Join the Owners"**
+### VID-AWR-00 · Reel (12–15s) — Safe & trusted (lead)
+- (0–3s) Real footage: kids building at a workshop, a teacher helping, a parent watching from the side.
+- (4–9s) On-screen: **"Vetted teachers. Reviewed, age-appropriate projects. Parents welcome."**
+- (10–13s) **"A safe, exciting Saturday for your child."**
+- (14–15s) Logo + **"First workshop free · Book a seat"**
 
-### VID-AWR-01 · Bumper (6s, no sound assumed) — Marketplace-escape
-- (0–2s) On-screen: **"A marketplace is someone else's mall."**
-- (3–5s) **"Own the storefront. Keep the customer."**
-- (6s) Logo + **"Follow Own"**
+### VID-AWR-01 · Reel (15–18s) — What they build
+- (0–3s) `This Saturday, your child builds a working robot hand.` `[PROOF — confirm project]`
+- (4–10s) Quick cuts of the build; kid showing the finished thing.
+- (11–16s) `Hands-on, with a vetted teacher, in [district]. Ages 5–17.`
+- (17–18s) `First workshop free.` [Logo + Book]
 
-### VID-AWR-02 · Skippable in-stream / Reel (15–20s) — Customer ownership
-- (0–3s) `You sold 1,000 orders last month. Can you email those customers tomorrow?`
-- (4–9s) `Probably not. The marketplace owns the customer — not you.`
-- (10–17s) `On Own, the customer is yours: order history, contacts, repurchase data — in your instance, in-country.`
-- (18–20s) `Own your store. Own your customers.` [Logo + Follow]
+### VID-AWR-02 · Reel (12–15s) — Make screen time count
+- (0–3s) `One Saturday of scrolling…` (phone screen) → `…or one thing they built?` (kid holding their build)
+- (4–10s) `Safe, vetted weekend workshops for kids 5–17. Reviewed and age-appropriate.`
+- (11–15s) `Trade an afternoon of screen time for something they made.` [Logo + Book]
 
-### VID-AWR-03 · Reel / Short (15–18s) — Local rails
-- (0–3s) `Telegram is where Uzbek buyers spend their time.`
-- (4–8s) `Uzcard and Humo are the cards they carry. BTS and Yandex deliver.`
-- (9–15s) `Own wires it into one operating system — so you sell where they already are.`
-- (16–18s) `Storefront. Telegram. One platform.` [Logo + Follow]
-
-**Production notes:** Use real product screenshots (admin dashboard, Telegram order flow, Uzcard checkout) over generic global-commerce stock. Burn in captions (most viewers watch sound-off). Provide Uzbek + Russian caption tracks.
+**Production notes:** Use **real session footage** (kids building, teacher, parents in the room) — never generic global-EdTech stock. Get **consent** for any identifiable kids/parents. Captions in Uzbek + Russian.
 
 ---
 
-# 4) Bulk upload — Google Demand Gen / Display
+# 4) Bulk upload — Meta (primary text / headline / description)
 
 ```csv
-short_headline_1,short_headline_2,short_headline_3,long_headline,description_1,description_2,business_name,angle
-"Own It. Don't Rent It.","Be an Owner, Not a Renter","Join Uzbekistan's Owners","Own it. Don't rent it. Build commerce that's actually yours.","A movement of Uzbek merchants who own their commerce, not rent it. Follow Own.","Own your storefront, customer, data, and economics. Join the Owners.","Own","M_merchant_movement"
-"Sell Beyond the Marketplace","Marketplaces Are One Channel","Own Your Store, Not a Rental","Marketplaces start your business. They don't run it.","Marketplaces are a channel, not the channel. See what owning yours looks like.","Keep marketplaces in your mix and add the channels you actually own.","Own","A_marketplace_escape"
-"Own the Customer Relationship","Your Brand. Your Customer.","Stop Renting Your Customers","On a marketplace you rent the customer. On Own, they're yours.","No commission on direct orders. Your brand, your customer, your data.","The customer who buys today shouldn't be unreachable tomorrow.","Own","B_customer_ownership"
-"Built for Uzbekistan Commerce","Storefront + Telegram + More","Local Rails, One Platform","Built around the rails that move money and goods in Uzbekistan.","Storefront, Telegram, Humo, Uzcard, BTS and Yandex delivery — one operating system.","Local payments and delivery, wired in on day one. Not bent to a global template.","Own","C_local_rails"
-"Not a Marketplace Listing","Commerce Infrastructure","The OS for Uzbek Commerce","Uzbekistan needs commerce infrastructure, not another marketplace listing.","A young market, fast e-commerce growth, and almost all of it on three platforms.","Own runs your commerce across the channels you own. Follow the build.","Own","D_category_thesis"
-"Follow Own for Uzbek Commerce","Own Your Commerce","Build Commerce You Own","Own your storefront, your customer, your data, and your economics.","Follow Own for practical takes on building commerce you actually own.","Every layer of your operation, in your control. Follow to see how.","Own","E_follow"
+primary_text,headline,description,angle
+"A safe, exciting Saturday for your child — and you're welcome to stay. Vetted teachers, reviewed age-appropriate projects, other parents in the room. First workshop free.","First workshop free","Vetted teachers, real builds","S_safe_trusted"
+"This Saturday, your child builds a working robot hand — and takes it home. Hands-on, with a vetted teacher, in your district. First workshop free.","Build something real this weekend","Hands-on, ages 5-17","W_workshop"
+"Not a global app translated into Uzbek. Real local teachers, in your district, with your child in the room. First workshop free.","Your neighborhood's weekend program","Local, vetted, hands-on","L_local"
+"One Saturday of scrolling — or one thing they built with their hands? Safe, vetted weekend workshops for kids 5-17. First workshop free.","Make screen time worth it","Safe, hands-on, ages 5-17","A_screen_time"
+"Real kits. Real building. Learning they can hold. Kids 5-17 build it themselves with a vetted teacher. Come build something real this weekend. First workshop free.","Build it yourself","Hands-on STEAM, ages 5-17","T_steam_toys"
 ```
 
 ---
@@ -393,28 +214,28 @@ short_headline_1,short_headline_2,short_headline_3,long_headline,description_1,d
 # 5) Tracking, measurement & next iteration
 
 **UTM scheme (all click destinations):**
-`?utm_source={google|meta|yandex}&utm_medium=paid_social|display|video&utm_campaign=awareness_wave1&utm_content=<adID>&utm_term=<angle>`
+`?utm_source={meta|telegram}&utm_medium=paid_social&utm_campaign=workshop_wave1&utm_content=<adID>&utm_term=<angle>`
 
-**Destinations:** Instagram profile, Telegram channel, LinkedIn page, and a lightweight "follow us / what we're building" landing section — never a hard sales CTA in this wave.
+**Destinations:** the [workshop landing page](../../landing-pages/workshop-signup.md) (free-workshop booking — primary), the per-district Telegram group, and the Instagram profile. Never a hard Club-purchase CTA in this wave.
 
 **Read the results by:**
-- Followers gained per platform and per angle (tag each follow source by `utm_content`).
-- Reach / unique users and frequency (watch for fatigue >2.5 avg frequency).
-- VTR for video, saves/shares for static, follows-per-1k-reach as the efficiency metric.
-- Branded-search lift in Google + Yandex as a halo signal.
+- Free-workshop bookings and Telegram joins per platform and per angle (tag each by `utm_content`).
+- Cost per booking / cost per Telegram join (the efficiency metrics for this wave).
+- Reach / unique users and frequency (watch fatigue >2.5 avg frequency).
+- VTR for video, saves/shares for static, follows-per-1k-reach.
 
-**Iteration loop (log in `performance-analytics/experiments-log.md`):**
-1. Lead with **Angle M (movement)** and run the other 5 angles (A–E) as proof at equal small budgets, ~1,000+ impressions each.
-2. Hold the movement framing as the constant; test which *proof* angle (A–E) best converts reach into follows. Keep the top 2 proof angles by follows-per-1k-reach; pause the bottom 2.
-3. Generate fresh variations on the winning movement+proof pairing (new hooks, same identity) for Wave 2.
-4. Test 1 new wildcard proof angle per wave; never dilute the "Owners, not renters" identity.
+**Iteration loop (log in `../../performance-analytics/experiments-log.md`):**
+1. Lead with **Angle S (safe & trusted)**; run W/L/A/T as proof at equal small budgets, ~1,000+ impressions each.
+2. Hold the safe-&-trusted + free-first-workshop framing constant; test which *proof/delight* angle best converts reach into bookings. Keep the top 2; pause the bottom 2.
+3. Generate fresh variations on the winning pairing (new hooks, same trust lead) for Wave 2.
+4. Whatever wins, the workshop fills the room — paid only opens the door. If organic Telegram/referrals fill sessions, **cut paid**.
 
 ---
 
 # 6) Localization note (important)
 
-- English here is the **source**. Final ads run in **Uzbek (primary)** and **Russian (secondary)** per `brand-voice/language-matrix.md`.
-- **Character counts above are for English.** Cyrillic strings render at different lengths — every Russian/Uzbek headline and description must be **re-validated in each platform's preview tool** before launch (Google RSA/Demand Gen, Meta Ads Manager, Yandex Direct).
-- Yandex copy is drafted Russian-first because RSYA / Yandex inventory skews Russian-language in the CIS; produce matching Uzbek variants for Uzbek-language inventory.
-- Native reviewer must check regulatory / payment terms (Humo, Uzcard, fiscalization, BNPL, data residency) before publish.
-- All assets pass through `brand-review/` (Draft → In review → Approved) before going Live.
+- English here is the **source**. Final ads run in **Uzbek (primary, parent first-touch)** and **Russian (secondary)** per [`brand-voice/language-matrix.md`](../../brand-voice/language-matrix.md).
+- **Character counts above are for English.** Uzbek and Cyrillic strings render at different lengths — every translated headline/description must be **re-validated in each platform's preview tool** before launch (Meta Ads Manager, Telegram).
+- Native reviewer must check any **safety/wellbeing wording** and confirm the "reviewed, age-appropriate content" claim is stated provably, not vaguely.
+- Session specifics (venue, date, the project kids build) must be **real** before launch — replace every `[PROOF — confirm]` placeholder.
+- All assets pass through `../../brand-review/` (Draft → In review → Approved) before going Live.

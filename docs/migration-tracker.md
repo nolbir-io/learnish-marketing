@@ -2,7 +2,7 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phases 0–5 done; **Phase 6 exit criteria met** (workshop landing page, Phase 1 campaign brief, Own sales deck archived + replaced with a venue/partner deck). Remaining Phase 6 items (campaign README/phase-2-3 briefs/calendar, all of `content-creation/`) are deferred to a later pass per the "minimum first" scope. Next: finish Phase 6 content, then Phase 7 (SEO). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
+> **Status:** Phases 0–6 done. **Phase 6 fully complete** — all `campaigns/` (README + phase-1/2/3 briefs + calendar) and all of `content-creation/` (READMEs, editorial calendar, paid-ads batch, social READMEs + Instagram/LinkedIn drafts + social calendar) rewritten for Learnish on the workshop flywheel. Next: Phase 7 (SEO), then Phase 8 (skills cleanup, low priority). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
 > **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
@@ -30,12 +30,12 @@
 | 3     | Brand & voice            | Done        | —      | Voice guide, language matrix, review rubric/log + READMEs rewritten for Learnish (dual parent/kid audience) |
 | 4     | Measurement              | Done        | —      | Funnel (live vs planned), KPI tree, WTP research, weekly report, experiments log |
 | 5     | Competitive intelligence | Done        | —      | 4 Learnish profiles (attention vs category), market map, battlecard; Own profiles archived |
-| 6     | Campaigns & content      | In progress | —      | Exit criteria met (LP + Phase 1 brief + deck); content-creation/ + remaining briefs deferred |
+| 6     | Campaigns & content      | Done        | —      | All campaigns/ + content-creation/ rewritten for Learnish (workshop flywheel) |
 | 7     | SEO                      | Not started | —      |                                          |
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
 
-**Rough completion:** 5 / 8 phases done (Phase 1, Phase 2, Phase 3, Phase 4, Phase 5)
+**Rough completion:** 6 / 8 phases done (Phase 1–6). Remaining: Phase 7 (SEO), Phase 8 (skills cleanup, low priority).
 
 ---
 
@@ -220,18 +220,18 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 
 | Task                            | File(s)                                                | Status      | Done |
 | ------------------------------- | ------------------------------------------------------ | ----------- | ---- |
-| Campaign README                 | `campaigns/README.md`                                  | Not started | [ ]  |
+| Campaign README                 | `campaigns/README.md`                                  | Done        | [x]  |
 | Phase 1 brief                   | `campaigns/phase-1-brief.md`                           | Done        | [x]  |
-| Phase 2 brief                   | `campaigns/phase-2-brief.md`                           | Not started | [ ]  |
-| Phase 3 brief                   | `campaigns/phase-3-brief.md`                           | Not started | [ ]  |
-| Campaign calendar               | `campaigns/calendar.md`                                | Not started | [ ]  |
-| Paid ads README                 | `content-creation/paid-ads/README.md`                  | Not started | [ ]  |
-| Paid ads draft                  | `content-creation/paid-ads/2026-06-brand-awareness.md` | Not started | [ ]  |
-| Social README                   | `content-creation/social/README.md`                    | Not started | [ ]  |
-| Social calendar                 | `content-creation/social/calendar.md`                  | Not started | [ ]  |
-| Instagram draft                 | `content-creation/social/instagram/2026-06.md`         | Not started | [ ]  |
-| LinkedIn draft                  | `content-creation/social/linkedin/2026-06.md`          | Not started | [ ]  |
-| Content README                  | `content-creation/README.md`                           | Not started | [ ]  |
+| Phase 2 brief                   | `campaigns/phase-2-brief.md`                           | Done        | [x]  |
+| Phase 3 brief                   | `campaigns/phase-3-brief.md`                           | Done        | [x]  |
+| Campaign calendar               | `campaigns/calendar.md`                                | Done        | [x]  |
+| Paid ads README                 | `content-creation/paid-ads/README.md`                  | Done        | [x]  |
+| Paid ads draft                  | `content-creation/paid-ads/2026-06-brand-awareness.md` | Done        | [x]  |
+| Social README                   | `content-creation/social/README.md`                    | Done        | [x]  |
+| Social calendar                 | `content-creation/social/calendar.md`                  | Done        | [x]  |
+| Instagram draft                 | `content-creation/social/instagram/2026-06.md`         | Done        | [x]  |
+| LinkedIn draft                  | `content-creation/social/linkedin/2026-06.md`          | Done        | [x]  |
+| Content README                  | `content-creation/README.md`                           | Done        | [x]  |
 | Landing page (rename + rewrite) | `landing-pages/merchant-signup.md` → `workshop-signup.md` | Done        | [x]  |
 | Sales deck (replace)            | `sales-enablement/decks/marketplace-escape-deck.md` → `venue-partner-deck.md` (Own deck archived) | Done | [x]  |
 
@@ -242,7 +242,7 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 - [x] One campaign brief aligned to current playbook phase (`campaigns/phase-1-brief.md` — First 10 trusted families)
 - [x] Own-specific sales deck archived or replaced (archived to `_archive/own-fork/`; replaced by `venue-partner-deck.md`)
 
-> **Note — exit criteria met; remaining Phase 6 items deferred:** The three exit criteria are done (workshop landing page, Phase 1 brief, deck replaced). Still in Own/merchant voice and queued for a later pass: `campaigns/` README + phase-2/3 briefs + calendar, all of `content-creation/` (paid-ads, social READMEs + drafts, editorial calendar), per the agreed "minimum first, then expand" scope. Decided directions for that pass: workshop landing page is the lead LP; social = Instagram + Telegram + LinkedIn (LinkedIn repurposed for investors/partners/hiring); paid = a small local Tashkent workshop-promotion batch (community-led, not ad-led); English source + Uzbek-lead/RU translation; Club pricing shown as "intro pricing, being validated"; Nish kid-facing only.
+> **Note — Phase 6 fully complete (2026-06-07):** All deferred items are now rewritten for Learnish. `campaigns/` README + phase-2/3 briefs + calendar follow the Phase 1 brief model (workshop flywheel; gates on paying Club families 10→100→1,000; north-star = free family signups). `content-creation/` README + editorial calendar reorganize content around the workshop schedule (one workshop → reel + posts + Telegram recap + email). `paid-ads/` reframed as a small **community-led local workshop-promotion** batch (Meta + Telegram; Google/YouTube reserved for Phase 3; angle S "safe & trusted" leads; soft CTA = book a free workshop). `social/` README + calendar + Instagram (parent trust + kid delight) + LinkedIn (investors/partners/hiring) drafts written. Applied throughout: workshop landing page is the lead LP; English source + Uzbek-lead/RU translation; Club pricing shown as "intro pricing, being validated"; Nish kid-facing only; real session proof with consent or `[PROOF — to collect]`.
 
 ---
 
@@ -342,6 +342,9 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Sales deck → venue/partner deck | Learnish is B2C/word-of-mouth-led, so a B2B sales deck doesn't fit; the only "sales" motion that matters is recruiting local centers as workshop venues (40/30/30 split). Own deck archived to `_archive/own-fork/`; new `venue-partner-deck.md` created | —     |
 | 2026-06-07 | "First 10 trusted families" framing | Renamed Phase 1 cohort from "founding families" to "first 10 trusted families" (per founder); chosen for trust + referral reach, not revenue | —     |
 | 2026-06-07 | Public pricing = "intro, being validated" | Show Club tiers honestly with a validation caveat (WTP is Phase 4); never present unvalidated prices as final. Store/site = `learnish.uz`. Workshop specifics kept as `[PROOF — to collect]` placeholders | —     |
+| 2026-06-07 | Phase 6 finished — campaigns + content rewritten | All `campaigns/` + `content-creation/` moved from Own (merchants) to Learnish (families). Phase 2/3 briefs mirror the playbook (gates on paying Club families 10→100→1,000; north-star = free signups); content reorganized around the workshop flywheel | —     |
+| 2026-06-07 | Paid = community-led local workshop top-up | Reframed the paid-ads batch from an Own "merchant movement" awareness push to a small, district-level Tashkent batch (Meta + Telegram) whose only job is filling free workshops + growing the Telegram community; Google/YouTube reserved for Phase 3; never a cold "buy the Club" push | —     |
+| 2026-06-07 | Social channel roles fixed | Instagram = parent awareness + kid delight; Telegram = primary parent comms + per-district community (event-driven around workshops); LinkedIn = investors/partners/hiring, not parents. Lead angle everywhere = "safe & trusted (reviewed, age-appropriate)" + free first workshop; Nish kid-facing only | —     |
 
 
 ---
@@ -354,12 +357,13 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Open:** Base store-credit rate (then 2× for Full Club) — watch margin impact.
 - **Open:** Confirm which line leads messaging — currently leaning **Learnish Club** membership.
 - **Fork source:** Repo content is Own (Uzbekistan e-commerce GTM). Repo name/remote already say `learnish-marketing`.
-- **Phase 1–5 done (2026-06-07):** Foundation, the GTM spine, Brand & voice, Measurement, and Competitive intelligence are all Learnish.
+- **Phase 1–6 done (2026-06-07):** Foundation, the GTM spine, Brand & voice, Measurement, Competitive intelligence, and Campaigns & content are all Learnish.
 - **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
 - **Product reality (affects measurement):** App/courses not shipped — only STEAM store + workshops are live today; course content rolls out entertainment → math → languages → other. Funnel/KPI docs tag stages live vs planned.
 - **Phase 5 research debt:** Profiles are desk-level — the priority follow-up is naming **real local competitors** (Tashkent tutoring chains, kids clubs, local STEAM-toy sellers) and verifying pricing/figures.
-- **Phase 6 exit criteria met (2026-06-07):** workshop landing page (`landing-pages/workshop-signup.md`), Phase 1 brief (`campaigns/phase-1-brief.md`, "first 10 trusted families"), and the Own sales deck archived + replaced by `sales-enablement/decks/venue-partner-deck.md`.
-- **Next action:** Finish the rest of Phase 6 content (still Own-voiced): `campaigns/` README + phase-2/3 briefs + calendar, and all of `content-creation/` (paid-ads README + local Tashkent batch, social README + Instagram/Telegram/LinkedIn drafts + calendar, editorial calendar, content README). Lead messaging with safe & trusted + STEAM toys/workshops (per brand voice) and the anti-YouTube / local-vs-global wedges from Phase 5. Then Phase 7 (SEO).
+- **Phase 6 complete (2026-06-07):** workshop landing page + Phase 1 brief + venue/partner deck, **plus** all remaining `campaigns/` (README, phase-2/3 briefs, calendar) and all of `content-creation/` (READMEs, editorial calendar, paid-ads batch, social READMEs + Instagram/LinkedIn drafts + social calendar) rewritten for Learnish on the workshop flywheel.
+- **Next action:** Phase 7 (SEO) — `seo-audit/keyword-universe.md` (still Own: merchant onboarding/payment ops clusters), `technical-audit.md`, `README.md`. Then Phase 8 (skills cleanup, low priority) and the final-verification grep.
+- **Telegram drafts:** social channel split is decided (IG + Telegram + LinkedIn) and Telegram is referenced as primary parent comms; concrete per-district Telegram templates (`content-creation/social/telegram/`) are to be added as workshops are scheduled (event-driven, not a fixed batch).
 
 ---
 
