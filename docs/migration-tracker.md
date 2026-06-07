@@ -2,7 +2,7 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phases 0–4 done — Foundation, GTM spine, Brand & voice, and now Measurement (`performance-analytics/`) all rewritten for Learnish. Next: Phase 5 (Competitive intelligence). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
+> **Status:** Phases 0–5 done — Foundation, GTM spine, Brand & voice, Measurement, and now Competitive intelligence (`competitor-profiles/`, `competitive-analysis/`, `competitive-brief/`) all rewritten for Learnish. Next: Phase 6 (Campaigns & content). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
 > **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
@@ -29,13 +29,13 @@
 | 2     | Strategy & GTM spine     | Done        | —      | Playbook, operating principles, 6-month plan rewritten for Learnish |
 | 3     | Brand & voice            | Done        | —      | Voice guide, language matrix, review rubric/log + READMEs rewritten for Learnish (dual parent/kid audience) |
 | 4     | Measurement              | Done        | —      | Funnel (live vs planned), KPI tree, WTP research, weekly report, experiments log |
-| 5     | Competitive intelligence | Not started | —      | Mostly replace                           |
+| 5     | Competitive intelligence | Done        | —      | 4 Learnish profiles (attention vs category), market map, battlecard; Own profiles archived |
 | 6     | Campaigns & content      | Not started | —      | Full rewrite                             |
 | 7     | SEO                      | Not started | —      |                                          |
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
 
-**Rough completion:** 4 / 8 phases done (Phase 1, Phase 2, Phase 3, Phase 4)
+**Rough completion:** 5 / 8 phases done (Phase 1, Phase 2, Phase 3, Phase 4, Phase 5)
 
 ---
 
@@ -180,34 +180,38 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 *Mostly replace — current research is e-commerce / Uzbekistan specific.*
 
 
-| Task                      | File(s)                              | Status      | Done |
-| ------------------------- | ------------------------------------ | ----------- | ---- |
-| Competitor summary        | `competitor-profiles/_summary.md`    | Not started | [ ]  |
-| Market map                | `competitive-analysis/market-map.md` | Not started | [ ]  |
-| Analysis README           | `competitive-analysis/README.md`     | Not started | [ ]  |
-| Battlecard template       | `competitive-brief/template.md`      | Not started | [ ]  |
-| Brief README              | `competitive-brief/README.md`        | Not started | [ ]  |
-| New competitor profile #1 | `competitor-profiles/`               | Not started | [ ]  |
-| New competitor profile #2 | `competitor-profiles/`               | Not started | [ ]  |
-| New competitor profile #3 | `competitor-profiles/`               | Not started | [ ]  |
+| Task                      | File(s)                                                  | Status | Done |
+| ------------------------- | -------------------------------------------------------- | ------ | ---- |
+| Competitor summary        | `competitor-profiles/_summary.md`                        | Done   | [x]  |
+| Market map                | `competitive-analysis/market-map.md`                     | Done   | [x]  |
+| Analysis README           | `competitive-analysis/README.md`                         | Done   | [x]  |
+| Signals tracker           | `competitive-analysis/signals-tracker.md`                | Done   | [x]  |
+| Battlecard template       | `competitive-brief/template.md`                          | Done   | [x]  |
+| Brief README              | `competitive-brief/README.md`                            | Done   | [x]  |
+| Profile #1 (attention)    | `competitor-profiles/youtube-kids.md`                    | Done   | [x]  |
+| Profile #2 (digital app)  | `competitor-profiles/khan-academy-kids.md`               | Done   | [x]  |
+| Profile #3 (STEAM kits)   | `competitor-profiles/steam-subscription-boxes.md`        | Done   | [x]  |
+| Profile #4 (in-person)    | `competitor-profiles/local-tutoring-and-clubs.md`        | Done   | [x]  |
 
 
-**Archive (Own fork — move to `_archive/own-fork/` when ready)**
+**Archive (Own fork — moved to `_archive/own-fork/competitor-profiles/`)**
 
 
 | File                                               | Done |
 | -------------------------------------------------- | ---- |
-| `competitor-profiles/shopify.md`                   | [ ]  |
-| `competitor-profiles/woocommerce.md`               | [ ]  |
-| `competitor-profiles/uzbekistan-landscape.md`      | [ ]  |
-| `competitor-profiles/raw/` (desk research scrapes) | [ ]  |
+| `shopify.md`                                       | [x]  |
+| `woocommerce.md`                                   | [x]  |
+| `uzbekistan-landscape.md` (kept for partial reuse) | [x]  |
+| `raw/` (desk research scrapes)                     | [x]  |
 
 
 **Phase 5 exit criteria**
 
-- [ ] At least 3 Learnish-relevant competitor profiles exist
-- [ ] Market map and summary reflect Learnish category
-- [ ] Own-specific profiles archived or removed
+- [x] At least 3 Learnish-relevant competitor profiles exist (4 written)
+- [x] Market map and summary reflect Learnish category
+- [x] Own-specific profiles archived or removed
+
+> **Note:** Profiles are desk-level from general knowledge — pricing/figures marked "approximate, verify." Highest-value follow-up: **name real local players** (Tashkent tutoring chains, kids clubs, local STEAM-toy sellers) for full profiles. Reusable local-commerce facts (Uzum, payments, logistics, regulation) pulled forward into the market map from the archived `uzbekistan-landscape.md`.
 
 ---
 
@@ -290,7 +294,7 @@ Run before calling the migration complete:
 | `README.md` describes Learnish only                                                     | [x]  |
 | Playbook north-star matches Learnish metric                                             | [x]  |
 | Funnel stages match Learnish journey                                                    | [x]  |
-| ≥3 competitor profiles for Learnish                                                     | [ ]  |
+| ≥3 competitor profiles for Learnish                                                     | [x]  |
 | ≥1 landing page draft exists                                                            | [ ]  |
 | Open questions register has Learnish-specific items                                     | [x]  |
 
@@ -328,6 +332,9 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Phase 4 Measurement rewritten for Learnish | `performance-analytics/` moved from Own merchant funnel to the Learnish family journey; funnel/KPIs tagged live (store+workshops) vs planned (app); WTP research (Van Westendorp + Gabor-Granger) added | —     |
 | 2026-06-07 | Funnel tagged live vs planned | App not shipped (content sequence: entertainment → math → languages → other); measure today's real surfaces (STEAM store + workshops), scaffold app metrics for launch | —     |
 | 2026-06-07 | Active family = Weekly primary, Monthly secondary | Lead retention reads on WAF (≥1 kid had a session in 7d); MAF smooths; pre-app proxy = workshop/store activity in 30d (closes OQ-010 definition) | —     |
+| 2026-06-07 | Phase 5 Competitive intelligence rewritten for Learnish | Replaced Own (Shopify/WooCommerce) with 4 Learnish profiles on the attention-vs-category frame; archived Own profiles; reused local-commerce facts for the toy store | —     |
+| 2026-06-07 | Competitor frame = attention vs category | Two competitions: attention (YouTube/TikTok/Roblox) frames the problem+guilt; category (Khan/Duolingo apps, KiwiCo/MEL kits, local centers, Uzum toys) frames the spend. Moat = local in-person trust no global player can match | —     |
+| 2026-06-07 | Local centers: compete AND partner | Local tutoring centers/kids clubs own the trust Learnish wants; convert them into workshop venues (the model's 30% share) rather than pure rivals | —     |
 
 
 ---
@@ -340,10 +347,11 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Open:** Base store-credit rate (then 2× for Full Club) — watch margin impact.
 - **Open:** Confirm which line leads messaging — currently leaning **Learnish Club** membership.
 - **Fork source:** Repo content is Own (Uzbekistan e-commerce GTM). Repo name/remote already say `learnish-marketing`.
-- **Phase 1 + 2 + 3 + 4 done (2026-06-07):** Foundation, the GTM spine, Brand & voice, and Measurement (`performance-analytics/`) are all Learnish.
+- **Phase 1–5 done (2026-06-07):** Foundation, the GTM spine, Brand & voice, Measurement, and Competitive intelligence are all Learnish.
 - **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
 - **Product reality (affects measurement):** App/courses not shipped — only STEAM store + workshops are live today; course content rolls out entertainment → math → languages → other. Funnel/KPI docs tag stages live vs planned.
-- **Next action:** Phase 5 — Competitive intelligence (`competitor-profiles/`, `competitive-analysis/`, `competitive-brief/`): build ≥3 Learnish-relevant competitor profiles (attention vs category), a market map, and a battlecard template; archive the Own (Shopify/WooCommerce/Uzbekistan) profiles. Note the partial-reuse flag for STEAM/e-commerce research.
+- **Phase 5 research debt:** Profiles are desk-level — the priority follow-up is naming **real local competitors** (Tashkent tutoring chains, kids clubs, local STEAM-toy sellers) and verifying pricing/figures.
+- **Next action:** Phase 6 — Campaigns & content (`campaigns/`, `content-creation/`, `landing-pages/`, `sales-enablement/`): at least one landing page draft with the Learnish CTA, one campaign brief tied to the current playbook phase, and archive/replace the Own sales deck. Lead messaging with safe & trusted + STEAM toys/workshops (per brand voice), and the anti-YouTube / local-vs-global wedges from Phase 5.
 
 ---
 

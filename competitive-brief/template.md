@@ -1,39 +1,49 @@
-# Competitive Brief Template
+# Competitive Battlecard Template — Learnish
 
-## Brief Metadata
+One page. The version a founder, marketer, or workshop ambassador reads in 60 seconds before talking to a parent.
 
-- Competitor:
-- Date:
-- Author:
-- Confidence level: Low / Medium / High
+## Metadata
+
+- **Competitor:**
+- **Axis:** Attention / Category (digital · physical · in-person · à-la-carte)
+- **Date:**
+- **Author:**
+- **Confidence:** Low / Medium / High
 
 ## Snapshot
 
-- Positioning summary:
-- Target segment:
-- Core offer and pricing:
+- **What it is (one line):**
+- **Who uses it:** (the child) / (the parent who pays)
+- **Price:**
+- **Why parents choose it:**
 
-## Strengths
+## Strengths (be honest)
 
-- 
+-
 
-## Weaknesses
+## Weaknesses / where it's soft locally
 
-- 
+-
 
-## Threat to Own
+## Threat to Learnish
 
-- What risk does this create?
-- Which segment/channel is most affected?
+- **What risk does it create?** (lost attention / lost spend / lost trust)
+- **Which Learnish line is most affected?** (app · store/kits · workshops · Club)
 
-## Response Plan
+## How Learnish wins (the response)
 
-- Message response:
-- Product/offer response:
-- Sales enablement response:
-- Priority and owner:
+- **Message:** (the one-line reframe — e.g. "learn, don't scroll"; "KiwiCo, but local")
+- **Proof to lead with:** (safe & trusted · local delivery · in-person community · per-child kits)
+- **The trap question** (what we want a parent to ask the competitor):
+- **Offer/product response:**
+- **Compete or partner?** (e.g. local centers → workshop venues)
+
+## For the parent conversation
+
+- **If a parent says "we just use [competitor]":** →
+- **One sentence Learnish reply:** →
 
 ## Evidence
 
-- Sources used:
-- Open questions:
+- **Sources:** (link the [profile](../competitor-profiles/))
+- **Open questions:**
