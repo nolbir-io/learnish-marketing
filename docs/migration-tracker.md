@@ -2,9 +2,9 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phase 0 done — product brief + competitors + monetization model captured. Ready for Phase 1. See [`pricing/monetization-model.md`](../pricing/monetization-model.md).
+> **Status:** Phase 0, Phase 1 (Foundation), and Phase 2 (Strategy & GTM spine) done — product context, README, brief, playbook, operating principles, and 6-month plan all rewritten for Learnish. Next: Phase 3 (Brand & voice). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
-> **Last updated:** 2026-06-06 · **Owner:** [assign DRI]
+> **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
 ---
 
@@ -25,8 +25,8 @@
 | Phase | Name                     | Status      | Target | Notes                                    |
 | ----- | ------------------------ | ----------- | ------ | ---------------------------------------- |
 | 0     | Product inputs           | Done        | —      | Brief, competitors, monetization captured |
-| 1     | Foundation               | Not started | —      | product-marketing-context, README, brief |
-| 2     | Strategy & GTM spine     | Not started | —      | Playbook, 6-month plan                   |
+| 1     | Foundation               | Done        | —      | product-marketing-context, README, brief, thesis, OQ register |
+| 2     | Strategy & GTM spine     | Done        | —      | Playbook, operating principles, 6-month plan rewritten for Learnish |
 | 3     | Brand & voice            | Not started | —      |                                          |
 | 4     | Measurement              | Not started | —      | Funnel, KPIs                             |
 | 5     | Competitive intelligence | Not started | —      | Mostly replace                           |
@@ -35,7 +35,7 @@
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
 
-**Rough completion:** 0 / 8 phases done
+**Rough completion:** 2 / 8 phases done (Phase 1, Phase 2)
 
 ---
 
@@ -74,58 +74,62 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 *Blocks all skills and workstream folders — every slash command reads product context first.*
 
 
-| Task                               | File(s)                                    | Status      | Done |
-| ---------------------------------- | ------------------------------------------ | ----------- | ---- |
-| Rewrite product marketing context  | `.agents/product-marketing-context.md`     | Not started | [ ]  |
-| Optional: rename to canonical path | `.agents/product-marketing.md`             | N/A         | [ ]  |
-| Update repo README                 | `README.md`                                | Not started | [ ]  |
-| Update short brief                 | `brief.md`                                 | Not started | [ ]  |
-| Reset founder thesis worksheet     | `founder-team-thesis-alignment.md`         | Not started | [ ]  |
-| Refresh open questions             | `docs/playbook/open-questions-register.md` | Not started | [ ]  |
-| Update contributing references     | `CONTRIBUTING.md`                          | Not started | [ ]  |
+| Task                               | File(s)                                    | Status | Done |
+| ---------------------------------- | ------------------------------------------ | ------ | ---- |
+| Rewrite product marketing context  | `.agents/product-marketing-context.md`     | Done   | [x]  |
+| Optional: rename to canonical path | `.agents/product-marketing.md`             | N/A    | [ ]  |
+| Update repo README                 | `README.md`                                | Done   | [x]  |
+| Update short brief                 | `brief.md`                                 | Done   | [x]  |
+| Reset founder thesis worksheet     | `founder-team-thesis-alignment.md`         | Done   | [x]  |
+| Refresh open questions             | `docs/playbook/open-questions-register.md` | Done   | [x]  |
+| Update contributing references     | `CONTRIBUTING.md`                          | Done   | [x]  |
 
 
 **Phase 1 exit criteria**
 
-- [ ] `/product-marketing` summarizes Learnish, not Own
-- [ ] README describes Learnish purpose and links to this tracker
-- [ ] No "Own" in foundation files except historical notes
+- [x] `/product-marketing` summarizes Learnish, not Own
+- [x] README describes Learnish purpose and links to this tracker
+- [x] No "Own" in foundation files except historical notes
+
+> **Note:** `founder-team-thesis-alignment.md` is *reset to blanks* for Learnish (founder name kept) — the team still needs to fill it in. Worksheet scaffold and reference appendices are intentionally product-agnostic and were left intact.
 
 ---
 
 ## Phase 2 — Strategy & GTM spine
 
 
-| Task                     | File(s)                                 | Status      | Done |
-| ------------------------ | --------------------------------------- | ----------- | ---- |
-| Playbook index           | `docs/playbook/README.md`               | Not started | [ ]  |
-| Phase 0 — Foundation     | `docs/playbook/phase-0-foundation.md`   | Not started | [ ]  |
-| Phase 1 — First cohort   | `docs/playbook/phase-1-first-10.md`     | Not started | [ ]  |
-| Phase 2 — Early adopters | `docs/playbook/phase-2-first-100.md`    | Not started | [ ]  |
-| Phase 3 — Scale          | `docs/playbook/phase-3-first-1000.md`   | Not started | [ ]  |
-| Operating cadence        | `docs/playbook/operating-cadence.md`    | Not started | [ ]  |
-| Governance RACI          | `docs/playbook/governance-raci.md`      | Not started | [ ]  |
-| Operating principles     | `docs/strategy/operating-principles.md` | Not started | [ ]  |
-| 6-month plan index       | `docs/plan-6m/README.md`                | Not started | [ ]  |
-| Month 01                 | `docs/plan-6m/month-01.md`              | Not started | [ ]  |
-| Month 02                 | `docs/plan-6m/month-02.md`              | Not started | [ ]  |
-| Month 03                 | `docs/plan-6m/month-03.md`              | Not started | [ ]  |
-| Month 04                 | `docs/plan-6m/month-04.md`              | Not started | [ ]  |
-| Month 05                 | `docs/plan-6m/month-05.md`              | Not started | [ ]  |
-| Month 06                 | `docs/plan-6m/month-06.md`              | Not started | [ ]  |
+| Task                     | File(s)                                 | Status | Done |
+| ------------------------ | --------------------------------------- | ------ | ---- |
+| Playbook index           | `docs/playbook/README.md`               | Done   | [x]  |
+| Phase 0 — Foundation     | `docs/playbook/phase-0-foundation.md`   | Done   | [x]  |
+| Phase 1 — First cohort   | `docs/playbook/phase-1-first-10.md`     | Done   | [x]  |
+| Phase 2 — Early adopters | `docs/playbook/phase-2-first-100.md`    | Done   | [x]  |
+| Phase 3 — Scale          | `docs/playbook/phase-3-first-1000.md`   | Done   | [x]  |
+| Operating cadence        | `docs/playbook/operating-cadence.md`    | Done   | [x]  |
+| Governance RACI          | `docs/playbook/governance-raci.md`      | Done   | [x]  |
+| Operating principles     | `docs/strategy/operating-principles.md` | Done   | [x]  |
+| 6-month plan index       | `docs/plan-6m/README.md`                | Done   | [x]  |
+| Month 01                 | `docs/plan-6m/month-01.md`              | Done   | [x]  |
+| Month 02                 | `docs/plan-6m/month-02.md`              | Done   | [x]  |
+| Month 03                 | `docs/plan-6m/month-03.md`              | Done   | [x]  |
+| Month 04                 | `docs/plan-6m/month-04.md`              | Done   | [x]  |
+| Month 05                 | `docs/plan-6m/month-05.md`              | Done   | [x]  |
+| Month 06                 | `docs/plan-6m/month-06.md`              | Done   | [x]  |
 
 
 **Decisions needed**
 
-- [ ] Milestone labels (merchants → learners / enrollments / other)
-- [ ] Phase structure still valid or redesigned
-- [ ] Timeline horizon (6 / 12 / 24 months)
+- [x] Milestone labels — **paying Club families** gate each phase (10 → 100 → 1,000 families; 10,000 = post-playbook); **family signups** remain the north-star
+- [x] Phase structure — kept 4 phases, reframed around the community/workshop flywheel; filenames retained as slots
+- [x] Timeline horizon — **6 months**, extendable to 12 (next-cycle brief in Month 06)
 
 **Phase 2 exit criteria**
 
-- [ ] Each phase doc has Learnish ICP, motion, channels, exit criteria
-- [ ] 6-month plan aligns with playbook phases
-- [ ] Operating principles reflect Learnish thesis, not Own
+- [x] Each phase doc has Learnish ICP, motion, channels, exit criteria
+- [x] 6-month plan aligns with playbook phases
+- [x] Operating principles reflect Learnish thesis, not Own (LEGO / Duolingo / Disney + local community moat)
+
+> **Open / deferred from Phase 2:** `playbook/open-questions-register.md` still carries Own-era OQs (signed/live/transacting). It's listed under Phase 1 ("Refresh open questions") — refresh it there. Phase 2 docs reference the Learnish Phase 0 brief + monetization model as the source of truth, not the still-Own `.agents/product-marketing-context.md` (Phase 1).
 
 ---
 
@@ -279,13 +283,13 @@ Run before calling the migration complete:
 | Check                                                                                   | Done |
 | --------------------------------------------------------------------------------------- | ---- |
 | `grep -ri "Own|merchant|Shopify|Uzum|Humo"` clean in product docs (exclude `_archive/`) | [ ]  |
-| `.agents/product-marketing-context.md` describes Learnish only                          | [ ]  |
-| `README.md` describes Learnish only                                                     | [ ]  |
-| Playbook north-star matches Learnish metric                                             | [ ]  |
+| `.agents/product-marketing-context.md` describes Learnish only                          | [x]  |
+| `README.md` describes Learnish only                                                     | [x]  |
+| Playbook north-star matches Learnish metric                                             | [x]  |
 | Funnel stages match Learnish journey                                                    | [ ]  |
 | ≥3 competitor profiles for Learnish                                                     | [ ]  |
 | ≥1 landing page draft exists                                                            | [ ]  |
-| Open questions register has Learnish-specific items                                     | [ ]  |
+| Open questions register has Learnish-specific items                                     | [x]  |
 
 
 ---
@@ -312,6 +316,11 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Sell Digital tier standalone            | All-digital, ~100% margin, low-price entry to the Club; matches $5 entertainment anchor                                   | —     |
 | 2026-06-07 | Store credits: Full Club = 2× rate      | Loops subscription spend back into the STEAM toys store; base credit rate still TBD                                       | —     |
 | 2026-06-07 | ≥4 workshops included (guaranteed seats) | Confirms ~$36–48/child/yr COGS in the bundle; not empty-seat comped                                                      | —     |
+| 2026-06-07 | Phase 2 GTM spine rewritten for Learnish | Playbook, operating principles, and 6-month plan moved from Own (merchants) to Learnish (families); built on Phase 0 brief + monetization model | —     |
+| 2026-06-07 | Playbook built around the workshop flywheel | Community-led motion: workshop → free signup → Digital Club → Full Club → referrals; workshops are acquisition + trust engine, not just a revenue line | —     |
+| 2026-06-07 | Milestone = paying Club families (10 → 100 → 1,000) | Kept filenames as slots; family signups stay the north-star; paying families gate each phase; 10,000 = next milestone beyond the playbook | —     |
+| 2026-06-07 | Operating principles: LEGO / Duolingo / Disney | Replaces Apple/Google/Shopify "Own play"; moat = local in-person trust/community that global attention & EdTech apps can't replicate here | —     |
+| 2026-06-07 | Phase 1 Foundation rewritten for Learnish | `.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md` now describe Learnish; OQ register refreshed; thesis worksheet reset to blanks | —     |
 
 
 ---
@@ -324,7 +333,9 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Open:** Base store-credit rate (then 2× for Full Club) — watch margin impact.
 - **Open:** Confirm which line leads messaging — currently leaning **Learnish Club** membership.
 - **Fork source:** Repo content is Own (Uzbekistan e-commerce GTM). Repo name/remote already say `learnish-marketing`.
-- **Next action:** Phase 1 — run `/product-marketing` to draft `.agents/product-marketing-context.md` from the Phase 0 brief, then rewrite `README.md` and `brief.md`. Feed `pricing/monetization-model.md` into the Proof Points / pricing sections.
+- **Phase 1 + 2 done (2026-06-07):** Foundation (`.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md`, OQ register, thesis reset) and the GTM spine (`docs/playbook/`, `docs/strategy/operating-principles.md`, `docs/plan-6m/`) are all Learnish.
+- **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
+- **Next action:** Phase 3 — Brand & voice (`brand-voice/`, `brand-review/`). All skills now read the Learnish product context, so `/copywriting`, `/cro`, etc. will be on-brand.
 
 ---
 
@@ -332,7 +343,8 @@ Record major migration decisions here. Link to PRs or docs when possible.
 
 - [Monetization model](../pricing/monetization-model.md) — pricing architecture, unit economics, workshop P&L
 - [Product marketing context](../.agents/product-marketing-context.md) — source of truth for all skills (needs rewrite)
-- [Playbook index](playbook/README.md) — current GTM phases (Own)
+- [Playbook index](playbook/README.md) — Learnish GTM phases (workshop flywheel)
+- [Operating principles](strategy/operating-principles.md) — the Learnish strategic thesis (LEGO / Duolingo / Disney)
 - [Open questions register](playbook/open-questions-register.md) — unresolved assumptions
 - [Contributing](../CONTRIBUTING.md) — doc conventions
 

@@ -1,24 +1,25 @@
-# Own — Go-to-Market & Marketing Operating System
+# Learnish — Go-to-Market & Marketing Operating System
 
-> Help Uzbekistan's merchants **own** their commerce instead of renting it from marketplaces.
+> Make everyday learning **exciting** for kids 5–17 — safe, trusted, and built on real community.
 
-This repository is the **marketing and go-to-market (GTM) brain** for **Own**, an e-commerce infrastructure company building the commerce operating system for merchants in Uzbekistan. It is a **documentation repository** — there is no application code here. Everything is Markdown: strategy, playbooks, campaigns, brand voice, competitive research, content drafts, and the measurement system used to take Own from its first design partners to **1,000 merchants**.
+This repository is the **marketing and go-to-market (GTM) brain** for **Learnish**, a safe, trusted kids' learning & development platform (ages 5–17) for parents in Uzbekistan / Central Asia. It is a **documentation repository** — there is no application code here. Everything is Markdown: strategy, playbooks, campaigns, brand voice, competitive research, content drafts, and the measurement system used to take Learnish from its first founding families to **1,000 families** and beyond.
 
 If this is your first time here, read this page top to bottom, then open [`docs/playbook/README.md`](docs/playbook/README.md).
 
 ---
 
-## What is Own?
+## What is Learnish?
 
-**One-liner:** Own helps Uzbekistan merchants launch reliable e-commerce infrastructure faster, with hands-on onboarding and operational clarity.
+**One-liner:** Learnish is a safe, trusted learning & development platform that makes everyday learning exciting for kids aged 5–17.
 
-- **Category:** E-commerce infrastructure / merchant operating system (B2B SaaS with high-touch onboarding in early phases).
-- **The thesis:** E-commerce in Uzbekistan is maturing. The company that wins will be the **full-stack operating system** merchants rely on from launch to transaction — storefront, Telegram, local payments (Humo / Uzcard / Payme / Click), delivery (BTS, Yandex), fiscalization, and data residency as **one designed experience**, not a dozen duct-taped plugins.
-- **The wedge:** Be **10x better at one job** — *time from signed → live → transacting* — for a narrow merchant ICP, then expand surface area once activation is repeatable.
-- **The moat:** Local depth and trust — the rails, compliance, and operational data a foreign giant structurally cannot replicate fast.
-- **The goal:** **1,000 merchants** via phased GTM execution (first 10 → 100 → 1,000).
+- **Category:** B2C kids/family EdTech — multi-modal (app + courses + STEAM kits + in-person workshops + commerce), framed as the **Learnish Club**.
+- **The thesis:** The real competitor for a child's afternoon is passive screen time (YouTube, TikTok, Roblox). The company that wins gives kids something **exciting and safe** to do instead — and earns the parent's trust through **local, in-person community**, not just another app.
+- **The wedge:** **Weekend workshops** in Tashkent — they make "safe and trusted" tangible, fill the top of the funnel with free family signups, and seed word of mouth.
+- **The moat:** Local depth and in-person trust — real teachers, real venues, parents who meet — which a global attention app or a global EdTech app structurally cannot replicate here.
+- **The north-star:** **Family account signups.** Primary CTA: *download the app / create a family account.*
+- **The goal:** **1,000 paying families** via a phased, community-led GTM (first 10 → 100 → 1,000 families).
 
-For the full product context (audience, personas, objections, positioning), see [`.agents/product-marketing-context.md`](.agents/product-marketing-context.md).
+For the full product context (audience, personas, objections, positioning), see [`.agents/product-marketing-context.md`](.agents/product-marketing-context.md). For pricing and unit economics, see [`pricing/monetization-model.md`](pricing/monetization-model.md).
 
 ---
 
@@ -37,28 +38,30 @@ The repo has two layers:
 ├── founder-team-thesis-alignment.md← founding-team alignment worksheet
 │
 ├── docs/                           ← STRATEGY & OPERATING SYSTEM
+│   ├── migration-tracker.md        ← Own → Learnish migration progress
 │   ├── playbook/                   ← phased GTM playbook (start here)
 │   │   ├── README.md               ← playbook index + phases 0–3
 │   │   ├── phase-0-foundation.md
-│   │   ├── phase-1-first-10.md
-│   │   ├── phase-2-first-100.md
-│   │   ├── phase-3-first-1000.md
+│   │   ├── phase-1-first-10.md     ← first 10 founding families
+│   │   ├── phase-2-first-100.md    ← first 100 families
+│   │   ├── phase-3-first-1000.md   ← first 1,000 families
 │   │   ├── operating-cadence.md    ← weekly/monthly/quarterly rituals
 │   │   ├── governance-raci.md      ← decision rights
 │   │   └── open-questions-register.md ← unresolved assumptions + decisions
 │   ├── plan-6m/                    ← month-by-month execution roadmap (M1–M6)
 │   └── strategy/                   ← strategy notes (e.g. operating-principles.md)
 │
-├── brand-voice/                    ← how Own sounds (voice guide, language matrix)
+├── pricing/                        ← monetization model (Club tiers, unit economics)
+├── brand-voice/                    ← how Learnish sounds (voice guide, language matrix)
 ├── brand-review/                   ← how content gets checked (rubric, review log)
-├── campaigns/                      ← campaign briefs per phase + calendar
-├── competitive-analysis/           ← market map, signals tracker
-├── competitive-brief/              ← battlecard template
-├── competitor-profiles/            ← Shopify / WooCommerce / Uzbekistan landscape + raw research
-├── content-creation/               ← drafts: paid ads, social (Instagram, LinkedIn)
-├── landing-pages/                  ← landing page copy (e.g. merchant signup)
+├── campaigns/                      ← campaign & workshop briefs per phase + calendar
+├── competitive-analysis/           ← attention-vs-category market map, signals tracker
+├── competitive-brief/              ← positioning brief template
+├── competitor-profiles/            ← competitor profiles + raw research
+├── content-creation/               ← drafts: paid ads, social (Instagram, etc.)
+├── landing-pages/                  ← landing page copy (e.g. family signup)
 ├── performance-analytics/          ← KPI tree, funnel definition, experiments log, reporting
-├── sales-enablement/               ← sales decks and collateral
+├── sales-enablement/               ← decks and collateral
 └── seo-audit/                      ← keyword universe + technical audit
 ```
 
@@ -66,20 +69,20 @@ The repo has two layers:
 
 ---
 
-## The playbook: the road to 1,000 merchants
+## The playbook: the road to 1,000 families
 
-The core of this repo is a **phased GTM playbook**. Each phase answers the same five questions: **Goal · ICP focus · Motion · Channels & content · Exit criteria.**
+The core of this repo is a **phased, community-led GTM playbook** built around the **workshop flywheel**: *weekend workshop → free family signup (north-star) → Digital Club → Full Club → referrals*. Each phase answers the same five questions: **Goal · ICP focus · Motion · Channels & content · Exit criteria.**
 
 | # | Phase | Goal |
 |---|-------|------|
-| 0 | [Foundation](docs/playbook/phase-0-foundation.md) | Sharpen positioning, ICP, and offer enough to sell. |
-| 1 | [First 10 — Design partners](docs/playbook/phase-1-first-10.md) | Hand-pick 10 merchants who co-build with us. |
-| 2 | [First 100 — Early adopters](docs/playbook/phase-2-first-100.md) | Prove the motion repeats without the founder in every conversation. |
-| 3 | [First 1,000 — Scaled](docs/playbook/phase-3-first-1000.md) | Industrialize a channel mix for predictable acquisition. |
+| 0 | [Foundation](docs/playbook/phase-0-foundation.md) | Sharpen positioning, the parent ICP, and the Club offer enough to sell. |
+| 1 | [First 10 families — Founding cohort](docs/playbook/phase-1-first-10.md) | Run lighthouse workshops and convert parents into a founding cohort. |
+| 2 | [First 100 families — Early adopters](docs/playbook/phase-2-first-100.md) | Prove the flywheel repeats without the founder in every session. |
+| 3 | [First 1,000 families — Scale](docs/playbook/phase-3-first-1000.md) | Industrialize the workshop network across districts and regions. |
 
 Running alongside the phases is a **[6-month execution roadmap](docs/plan-6m/README.md)** (Month 01 → Month 06), which translates strategy into monthly priorities.
 
-The strategic spine is [`docs/strategy/operating-principles.md`](docs/strategy/operating-principles.md) — "the Own play": **Apple's integrated craft × Google's default distribution + data flywheel × Shopify's mission and aligned incentives**, all built on a local moat.
+The strategic spine is [`docs/strategy/operating-principles.md`](docs/strategy/operating-principles.md) — "the Learnish play": **LEGO's crafted, safe play × Duolingo's free-core habit and word-of-mouth brand × Disney's family trust and rituals**, all built on a local, in-person community moat.
 
 ---
 
@@ -90,6 +93,7 @@ The strategic spine is [`docs/strategy/operating-principles.md`](docs/strategy/o
 - **Running execution week to week:** [`docs/plan-6m/`](docs/plan-6m/) + [`docs/playbook/operating-cadence.md`](docs/playbook/operating-cadence.md).
 - **Writing copy or content:** start in [`brand-voice/`](brand-voice/), draft in [`content-creation/`](content-creation/), then check against [`brand-review/`](brand-review/).
 - **Researching the market:** [`competitive-analysis/`](competitive-analysis/), [`competitor-profiles/`](competitor-profiles/), [`competitive-brief/`](competitive-brief/).
+- **Pricing & monetization:** [`pricing/monetization-model.md`](pricing/monetization-model.md).
 - **Measuring results:** [`performance-analytics/`](performance-analytics/) (KPI tree, funnel definition, experiments log).
 
 ---
@@ -137,6 +141,6 @@ python3 .agents/generate-skill-commands.py
 
 ## Status
 
-Working scaffold. The phase structure (10 → 100 → 1,000) is a default to be revised once real ICP, timeline, and budget numbers are agreed. Several top-level unknowns (north-star metric, timeline, geographic scope, language posture) are tracked in the [playbook index](docs/playbook/README.md) and the [open-questions register](docs/playbook/open-questions-register.md).
+Working scaffold, migrating from a forked Own (Uzbekistan e-commerce) GTM into Learnish. The phase structure (10 → 100 → 1,000 families) is a working default to be revised once real ICP, timeline, and budget numbers are validated. Open assumptions (willingness to pay, founder bandwidth, budget, language posture) are tracked in the [playbook index](docs/playbook/README.md) and the [open-questions register](docs/playbook/open-questions-register.md).
 
-**Migrating this repo from Own → Learnish?** Track progress in [`docs/migration-tracker.md`](docs/migration-tracker.md).
+**Tracking the Own → Learnish migration?** See [`docs/migration-tracker.md`](docs/migration-tracker.md).

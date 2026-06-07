@@ -1,21 +1,24 @@
-# Month 03 - Message and Conversion Improvement
+# Month 03 — Founding Cohort and Conversion
 
-- **Owner:** Brand Lead
-- **Theme:** Quality and conversion optimization
+- **Owner:** Marketing Lead
+- **Theme:** Turn signups into a paying, referenceable founding cohort
 
 ## Milestones
 
-1. Implement review rubric and feedback log in daily workflow.
-2. Run focused funnel-conversion experiments on weakest stage.
-3. Finalize language matrix and localization SLA.
+1. Convert workshop signups into ~10 founding Full Club families (the Phase 1 gate).
+2. Run focused experiments on the weakest funnel step (likely free signup → paid Club).
+3. Finalize the UZ/RU language matrix and the localization review SLA.
+4. Ship referral mechanic v1 (what a referring family earns) and capture the first referred family.
 
 ## Dependencies
 
-- Stable content pipeline and consistent review process.
-- Analytics owner support for stage-level diagnostics.
+- A stable workshop cadence and a consistent follow-up process.
+- Analytics support for step-level conversion diagnostics.
+- Pricing/offer decisions confirmed (founding discount, if any).
 
 ## Success Criteria
 
-- Rejection/rework reasons are tracked and trend down.
-- Worst conversion stage improves versus Month 02 baseline.
-- All priority content follows approved voice/language standards.
+- ~10 founding families on paid Full Club; ≥ 1 reached via referral.
+- We can name 2–3 repeatable reasons parents say yes and 2–3 reasons they say no.
+- Free→paid conversion improves versus the Month 02 baseline.
+- All priority content follows approved voice/language/safety standards.

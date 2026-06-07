@@ -1,21 +1,24 @@
-# Month 04 - Scale Winning Motions
+# Month 04 — Make Workshops Repeatable
 
-- **Owner:** Marketing Lead
-- **Theme:** Scale proven channels, reduce waste
+- **Owner:** Community/Workshop Owner
+- **Theme:** Prove the flywheel runs without the founder in the room
 
 ## Milestones
 
-1. Reallocate spend toward top-performing channels.
-2. Expand content distribution for winning narratives.
-3. Retire or redesign underperforming experiments.
+1. Run ambassador-led workshops at 2–3 new venues/neighborhoods across Tashkent.
+2. Publish the "workshop-in-a-box" playbook so any ambassador runs a session to the same standard.
+3. Reallocate effort toward the workshop formats and follow-ups that convert best; retire weak ones.
+4. Recruit and onboard the next 1–2 student ambassadors with a clear comp/benefit model.
 
 ## Dependencies
 
-- Reliable month-over-month channel performance data.
-- Budget governance decisions from leadership.
+- Reliable per-session economics from Months 02–03 (cost, fill rate, conversion).
+- Budget governance decisions on venue/kit float.
+- A repeatable vetting process for teachers and ambassadors.
 
 ## Success Criteria
 
-- Spend allocation reflects measured performance.
-- At least one channel shows repeatable acquisition pattern.
+- ≥ 50% of new paying families this month came from sessions the founder did not personally run.
+- Workshop-in-a-box used by at least one ambassador end-to-end.
+- Effort/spend allocation reflects measured per-format performance.
 - Stop/scale decisions documented for all major tests.

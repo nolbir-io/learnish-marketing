@@ -1,21 +1,24 @@
-# Month 05 - Systematize Workstreams
+# Month 05 — Systematize the Loops
 
-- **Owner:** Operations/Marketing Lead
+- **Owner:** Marketing Lead
 - **Theme:** Cross-workstream consistency and repeatability
 
 ## Milestones
 
-1. Stabilize SEO, competitive intelligence, and partner motions.
-2. Improve cross-team handoff from acquisition to activation.
-3. Document recurring playbooks for top campaign types.
+1. Stabilize the referral loop, the standalone Digital Club funnel, and the parent-content rhythm.
+2. Plant the SEO/content foundation for parent-intent search (courses for kids, STEAM Tashkent, kids' workshops).
+3. Improve the handoff from acquisition (workshop/signup) to activation (in-app onboarding, kit shipment).
+4. Document recurring playbooks for the top campaign and workshop types.
 
 ## Dependencies
 
-- Operational maturity in campaigns, analytics, and content.
-- Sales/activation team participation in reviews.
+- Operational maturity in workshops, analytics, and content.
+- Product/activation participation in reviews.
+- Referral incentive funded and tracked.
 
 ## Success Criteria
 
-- Workstream artifacts are updated on schedule.
-- Handoffs include shared definitions and expected SLAs.
-- Repeat campaign types run with reduced planning overhead.
+- Referral and Digital Club funnels each produce attributed signups on their own.
+- Workstream artifacts updated on schedule with shared definitions and SLAs.
+- Acquisition→activation handoff has a measured drop-off and an owner.
+- Approaching ~100 paying families (Phase 2 gate) with a known cost per family.

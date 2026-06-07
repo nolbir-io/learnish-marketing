@@ -1,6 +1,6 @@
 # Contributing
 
-Contribution guide for the Own marketing strategy repository.
+Contribution guide for the Learnish marketing strategy repository.
 
 ## Principles
 

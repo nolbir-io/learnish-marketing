@@ -1,21 +1,24 @@
-# Month 02 - First Structured Execution
+# Month 02 — First Workshops and First Signups
 
-- **Owner:** Campaign Owner
-- **Theme:** Campaign and reporting discipline
+- **Owner:** Community/Workshop Owner
+- **Theme:** Run the flywheel by hand for the first time
 
 ## Milestones
 
-1. Publish phase campaign briefs and monthly campaign calendar.
-2. Ship first monthly content set aligned to campaign priorities.
-3. Start experiment loop with at least 2 active tests.
+1. Run 1–3 lighthouse weekend workshops in the target Tashkent neighborhood.
+2. Capture free family signups at every session (north-star) and start warm follow-up.
+3. Stand up the "voice of parent" doc — verbatim quotes on screen-time fears, what "safe" means, and price reactions.
+4. Publish the first real-workshop content (photos with consent, what kids built) and one landing page good enough to convert a referred parent.
 
 ## Dependencies
 
-- Brand voice and review process active.
-- KPI/funnel instrumentation from Month 01 complete.
+- Brand/safety review process active for any kid-facing or photo content.
+- KPI/funnel instrumentation from Month 01 complete (signups attributed to a workshop).
+- Venue, teacher, and ambassador confirmed for each session.
 
 ## Success Criteria
 
-- Campaigns ship on schedule with documented goals.
-- Weekly reports include campaign performance and conversion deltas.
-- Each active experiment has clear hypothesis and threshold.
+- Workshops run on schedule with a known fill rate and signup conversion per session.
+- Every session produces attributed family signups in the dashboard.
+- ≥ 10 verbatim parent quotes captured and themed.
+- First warm follow-ups sent toward Digital/Full Club.

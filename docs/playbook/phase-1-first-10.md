@@ -1,52 +1,69 @@
-# Phase 1 — First 10 (Design Partners)
+# Phase 1 — First 10 Families (Founding Cohort)
 
-> Hand-pick 10 merchants who'll co-build with us. This is a relationship phase, not a marketing phase.
+> Run lighthouse weekend workshops in Tashkent and convert the parents who show up into a small founding cohort that co-builds with us. This is a relationship phase, not a marketing phase.
 
 ## Goal
 
-10 merchants live on Own who:
+~10 founding families on a paid Full Club membership who:
 
-- Match the Phase 0 ICP exactly.
-- Will tell us the truth, weekly, about what's broken.
-- Are willing to be referenced (logo, quote, case study) once we've earned it.
+- Match the Phase 0 parent ICP exactly.
+- Will tell us the truth, weekly, about the app, the kits, the workshops, and the price.
+- Are willing to be referenced (testimonial, photo with consent, referral) once we've earned it.
+
+Free family signups (north-star) will be larger — every workshop touches 20–30 kids = potentially 20–30 families. The *milestone* here is the committed paying core, not raw signups.
+
+## ICP focus
+
+One neighborhood / school community in Tashkent where parents already cluster (a school chat group, a kids club, an apartment-complex community). Going narrow makes word-of-mouth dense and the first workshops easy to fill.
 
 ## Motion
 
-Founder-led. Every one of the 10 is a personal conversation. No paid acquisition. The "marketing" outputs are mostly *byproducts* of the sales process — interview notes, objection patterns, language merchants actually use.
+Founder-led, in person. Every one of the 10 founding families is a personal relationship. No paid acquisition. The "marketing" outputs are mostly *byproducts* of running workshops and talking to parents — interview notes, objection patterns, the exact words parents use about screen time and safety.
+
+The flywheel, run by hand for the first time:
+
+```
+1–3 lighthouse weekend workshops (founder + first ambassador)
+        ↓  free app signup at the workshop (north-star)
+        ↓  warm follow-up → Digital Club or Full Club
+        ↓  founding families refer the next families
+```
 
 ## Channels
 
 | Channel | Use | Folder |
 |---|---|---|
-| Direct outreach (warm intro, cold email, in-person) | Primary | [`../../campaigns/`](../../campaigns/) |
-| Founder presence on Telegram / LinkedIn | Build credibility, recruit conversations | [`../../content-creation/`](../../content-creation/) |
-| Partner-sourced intros (payments, logistics, marketplaces) | High-quality top of funnel | [`../../campaigns/`](../../campaigns/) |
+| In-person weekend workshops | Primary — trust, proof, and signups in one room | [`../../campaigns/`](../../campaigns/) |
+| Parent group chats (Telegram / WhatsApp) | Recruit families to the workshop; warm follow-up | [`../../campaigns/`](../../campaigns/) |
+| Founder presence (Instagram / Telegram) | Build credibility, show real sessions | [`../../content-creation/`](../../content-creation/) |
+| First student ambassador | On-the-ground ops + local reach into the community | [`../../campaigns/`](../../campaigns/) |
 
-[unknown] Which of these is realistic given current network and team.
+[unknown] Which of these is realistic given current network, venue access, and team.
 
 ## Content output (lightweight)
 
-- Founder posts about what we're learning (1–2 / week)
-- Internal "voice of customer" doc — verbatim quotes from every conversation
-- One landing page good enough that a referred merchant lands on it and doesn't bounce
+- Founder/ambassador posts about real workshops — photos (with consent), what kids built, what parents said (1–2 / week).
+- Internal "voice of parent" doc — verbatim quotes from every conversation (screen-time fears, what "safe" means to them, price reactions).
+- One landing page good enough that a referred parent lands on it, understands the Club, and creates a family account without bouncing.
 
 ## Exit criteria
 
 Move to Phase 2 when:
 
-- 10 merchants are live (not just signed).
-- We can articulate 2–3 repeatable reasons merchants say yes — and 2–3 reasons they say no.
-- At least 1 design partner is willing to be publicly referenced.
+- ~10 families are on a paid Full Club membership (not just free signups).
+- We can articulate 2–3 repeatable reasons parents say yes — and 2–3 reasons they say no.
+- At least 1 founding family has referred another family who signed up.
+- We've run ≥ 3 workshops and know the realistic cost, fill rate, and signup conversion of a single session.
 
 ## Unknowns
 
-- [unknown] Whether design partners pay, pay reduced, or get free in exchange for commitments
-- [unknown] Definition of "live" (onboarded? first transaction? first month?)
-- [unknown] Founder time budget for this phase
-- [unknown] Whether we run any events/dinners as a recruitment vehicle
+- [unknown] Whether founding families pay full, pay reduced, or get a founding discount in exchange for feedback.
+- [unknown] Definition of "active family" (created account? attended a workshop? completed onboarding in-app?).
+- [unknown] Founder time budget for running workshops personally this phase.
+- [unknown] Venue model — borrowed school room, partner kids club, or rented space — and who carries the cost.
 
 ## Monthly review checkpoint
 
 - Review weekly report trends in `performance-analytics/weekly-report-template.md`.
 - Log decisions that alter phase assumptions in `docs/playbook/open-questions-register.md`.
-- Update `docs/plan-6m/month-02.md` or `docs/plan-6m/month-03.md` based on experiment outcomes.
+- Update `docs/plan-6m/month-02.md` or `docs/plan-6m/month-03.md` based on workshop and conversion outcomes.
