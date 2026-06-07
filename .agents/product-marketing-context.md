@@ -22,7 +22,7 @@
 
 **Geographic focus:** Uzbekistan / Central Asia. Tashkent first, then regional cities.
 
-**Languages:** Uzbek + Russian (with English in the product). Working assumption: UZ + RU in parallel for first-touch.
+**Languages:** Three primary languages, priority **Uzbek → English → Russian**. Uzbek leads parent first-touch; English is a first-class language (not in-product only); Latin Uzbek is the default script. See [`brand-voice/language-matrix.md`](../brand-voice/language-matrix.md).
 
 **Primary use case:** Give kids exciting, safe, productive things to do — learning courses, hands-on STEAM kits, and weekend workshops — instead of unproductive screen time, while parents get trust, convenience, and a community of other families.
 
@@ -131,6 +131,10 @@ Split into two frames (see [`competitive-analysis/`](../competitive-analysis/)):
 **Style:** Clear, concrete, low-jargon; show real kids and real sessions, not stock claims.
 
 **Personality:** Caring, safe, exciting, optimistic, community-minded. (Strategic analogs: LEGO craft + trust, Duolingo delight + habit, Disney family trust — see [`docs/strategy/operating-principles.md`](../docs/strategy/operating-principles.md).)
+
+**Mascot:** A bee, working name **Nish** ("Lear-*nish*") — a kid-facing character carrying the playful, friendly energy; kept in the background for parent-facing trust copy.
+
+**Lead with:** Safe & trusted = *reviewed, age-appropriate content* (the proof we headline). Messaging hero = *STEAM toys + weekend workshops* (the tangible offers); the Learnish Club is the wrapper. Full voice in [`brand-voice/voice-guide.md`](../brand-voice/voice-guide.md).
 
 ## Proof Points
 **Metrics:** North-star = family account signups. Supporting funnel: visit → free signup → activated family → Digital Club → Full Club; plus workshop fill rate, free→paid conversion, and cohort retention (see [`performance-analytics/`](../performance-analytics/)).

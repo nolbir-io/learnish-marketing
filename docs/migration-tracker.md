@@ -2,7 +2,7 @@
 
 > **Purpose:** Track progress migrating this repo from the forked **Own** (Uzbekistan e-commerce GTM) content to **Learnish** marketing operations.
 >
-> **Status:** Phase 0, Phase 1 (Foundation), and Phase 2 (Strategy & GTM spine) done — product context, README, brief, playbook, operating principles, and 6-month plan all rewritten for Learnish. Next: Phase 3 (Brand & voice). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
+> **Status:** Phases 0–3 done — Foundation, GTM spine, and now Brand & voice (`brand-voice/`, `brand-review/`) all rewritten for Learnish. Next: Phase 4 (Measurement). See [`pricing/monetization-model.md`](../pricing/monetization-model.md) and [`playbook/README.md`](playbook/README.md).
 >
 > **Last updated:** 2026-06-07 · **Owner:** [assign DRI]
 
@@ -27,7 +27,7 @@
 | 0     | Product inputs           | Done        | —      | Brief, competitors, monetization captured |
 | 1     | Foundation               | Done        | —      | product-marketing-context, README, brief, thesis, OQ register |
 | 2     | Strategy & GTM spine     | Done        | —      | Playbook, operating principles, 6-month plan rewritten for Learnish |
-| 3     | Brand & voice            | Not started | —      |                                          |
+| 3     | Brand & voice            | Done        | —      | Voice guide, language matrix, review rubric/log + READMEs rewritten for Learnish (dual parent/kid audience) |
 | 4     | Measurement              | Not started | —      | Funnel, KPIs                             |
 | 5     | Competitive intelligence | Not started | —      | Mostly replace                           |
 | 6     | Campaigns & content      | Not started | —      | Full rewrite                             |
@@ -35,7 +35,7 @@
 | 8     | Skills cleanup           | Not started | —      | Low priority                             |
 
 
-**Rough completion:** 2 / 8 phases done (Phase 1, Phase 2)
+**Rough completion:** 3 / 8 phases done (Phase 1, Phase 2, Phase 3)
 
 ---
 
@@ -138,18 +138,18 @@ Complete this table before rewriting any downstream docs. Use `/product-marketin
 
 | Task                                   | File(s)                          | Status      | Done |
 | -------------------------------------- | -------------------------------- | ----------- | ---- |
-| Voice guide                            | `brand-voice/voice-guide.md`     | Not started | [ ]  |
-| Language matrix                        | `brand-voice/language-matrix.md` | Not started | [ ]  |
-| Folder README                          | `brand-voice/README.md`          | Not started | [ ]  |
-| Review rubric (product-specific items) | `brand-review/review-rubric.md`  | Not started | [ ]  |
-| Review log                             | `brand-review/review-log.md`     | Not started | [ ]  |
-| Folder README                          | `brand-review/README.md`         | Not started | [ ]  |
+| Voice guide                            | `brand-voice/voice-guide.md`     | Done        | [x]  |
+| Language matrix                        | `brand-voice/language-matrix.md` | Done        | [x]  |
+| Folder README                          | `brand-voice/README.md`          | Done        | [x]  |
+| Review rubric (product-specific items) | `brand-review/review-rubric.md`  | Done        | [x]  |
+| Review log                             | `brand-review/review-log.md`     | Done        | [x]  |
+| Folder README                          | `brand-review/README.md`         | Done        | [x]  |
 
 
 **Phase 3 exit criteria**
 
-- [ ] Voice guide has Learnish tone, words to use/avoid, and personality
-- [ ] Language matrix matches Learnish markets
+- [x] Voice guide has Learnish tone, words to use/avoid, and personality
+- [x] Language matrix matches Learnish markets
 
 ---
 
@@ -321,6 +321,7 @@ Record major migration decisions here. Link to PRs or docs when possible.
 | 2026-06-07 | Milestone = paying Club families (10 → 100 → 1,000) | Kept filenames as slots; family signups stay the north-star; paying families gate each phase; 10,000 = next milestone beyond the playbook | —     |
 | 2026-06-07 | Operating principles: LEGO / Duolingo / Disney | Replaces Apple/Google/Shopify "Own play"; moat = local in-person trust/community that global attention & EdTech apps can't replicate here | —     |
 | 2026-06-07 | Phase 1 Foundation rewritten for Learnish | `.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md` now describe Learnish; OQ register refreshed; thesis worksheet reset to blanks | —     |
+| 2026-06-07 | Phase 3 Brand & voice rewritten for Learnish | `brand-voice/` + `brand-review/` moved from Own (merchants) to Learnish; voice built on the dual parent(buy)/kid(use) audience with trust-wins rule, LEGO/Duolingo/Disney analogs, UZ/RU language matrix, and safety/claim hard gates in the review rubric | —     |
 
 
 ---
@@ -333,9 +334,9 @@ Record major migration decisions here. Link to PRs or docs when possible.
 - **Open:** Base store-credit rate (then 2× for Full Club) — watch margin impact.
 - **Open:** Confirm which line leads messaging — currently leaning **Learnish Club** membership.
 - **Fork source:** Repo content is Own (Uzbekistan e-commerce GTM). Repo name/remote already say `learnish-marketing`.
-- **Phase 1 + 2 done (2026-06-07):** Foundation (`.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md`, OQ register, thesis reset) and the GTM spine (`docs/playbook/`, `docs/strategy/operating-principles.md`, `docs/plan-6m/`) are all Learnish.
+- **Phase 1 + 2 + 3 done (2026-06-07):** Foundation (`.agents/product-marketing-context.md`, `README.md`, `brief.md`, `CONTRIBUTING.md`, OQ register, thesis reset), the GTM spine (`docs/playbook/`, `docs/strategy/operating-principles.md`, `docs/plan-6m/`), and Brand & voice (`brand-voice/`, `brand-review/`) are all Learnish.
 - **Founder action (not blocking):** Fill in the reset `founder-team-thesis-alignment.md` for Learnish.
-- **Next action:** Phase 3 — Brand & voice (`brand-voice/`, `brand-review/`). All skills now read the Learnish product context, so `/copywriting`, `/cro`, etc. will be on-brand.
+- **Next action:** Phase 4 — Measurement (`performance-analytics/`): funnel definition, KPI tree, experiments log, weekly report template. Validate willingness-to-pay and define funnel stages for the Learnish family journey.
 
 ---
 
