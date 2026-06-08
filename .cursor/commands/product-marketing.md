@@ -1,9 +1,6 @@
----
-name: product-marketing
-description: "Create or update their product marketing context document."
----
-
 # /product-marketing — Product Marketing Context
+
+> Create or update their product marketing context document.
 
 Invoke the **product-marketing** marketing skill and follow it for this task.
 

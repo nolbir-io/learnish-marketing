@@ -1,9 +1,6 @@
----
-name: cro
-description: "Optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture form..."
----
-
 # /cro — Conversion Rate Optimization (CRO)
+
+> Optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture form...
 
 Invoke the **cro** marketing skill and follow it for this task.
 

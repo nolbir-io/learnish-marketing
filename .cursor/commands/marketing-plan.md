@@ -1,9 +1,6 @@
----
-name: marketing-plan
-description: "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product."
----
-
 # /marketing-plan — Marketing Plan
+
+> When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product.
 
 Invoke the **marketing-plan** marketing skill and follow it for this task.
 

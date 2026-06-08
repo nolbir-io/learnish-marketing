@@ -1,9 +1,6 @@
----
-name: pricing
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy."
----
-
 # /pricing — Pricing Strategy
+
+> When the user wants help with pricing decisions, packaging, or monetization strategy.
 
 Invoke the **pricing** marketing skill and follow it for this task.
 

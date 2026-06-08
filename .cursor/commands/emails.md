@@ -1,9 +1,6 @@
----
-name: emails
-description: "Create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program."
----
-
 # /emails — Email Sequence Design
+
+> Create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.
 
 Invoke the **emails** marketing skill and follow it for this task.
 

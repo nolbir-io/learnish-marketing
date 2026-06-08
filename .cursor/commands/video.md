@@ -1,9 +1,6 @@
----
-name: video
-description: "Create, generate, or produce video content using AI tools or programmatic frameworks."
----
-
 # /video — Video
+
+> Create, generate, or produce video content using AI tools or programmatic frameworks.
 
 Invoke the **video** marketing skill and follow it for this task.
 

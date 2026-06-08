@@ -1,9 +1,6 @@
----
-name: customer-research
-description: "Conduct, analyze, or synthesize customer research."
----
-
 # /customer-research — Customer Research
+
+> Conduct, analyze, or synthesize customer research.
 
 Invoke the **customer-research** marketing skill and follow it for this task.
 

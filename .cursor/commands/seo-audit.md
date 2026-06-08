@@ -1,9 +1,6 @@
----
-name: seo-audit
-description: "Audit, review, or diagnose SEO issues on their site."
----
-
 # /seo-audit — SEO Audit
+
+> Audit, review, or diagnose SEO issues on their site.
 
 Invoke the **seo-audit** marketing skill and follow it for this task.
 

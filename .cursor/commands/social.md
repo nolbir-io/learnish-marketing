@@ -1,9 +1,6 @@
----
-name: social
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms."
----
-
 # /social — Social Content
+
+> When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.
 
 Invoke the **social** marketing skill and follow it for this task.
 

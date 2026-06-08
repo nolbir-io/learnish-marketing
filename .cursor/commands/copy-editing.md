@@ -1,9 +1,6 @@
----
-name: copy-editing
-description: "Edit, review, or improve existing marketing copy, or refresh outdated content."
----
-
 # /copy-editing — Copy Editing
+
+> Edit, review, or improve existing marketing copy, or refresh outdated content.
 
 Invoke the **copy-editing** marketing skill and follow it for this task.
 

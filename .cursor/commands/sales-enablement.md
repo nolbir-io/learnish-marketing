@@ -1,9 +1,6 @@
----
-name: sales-enablement
-description: "Create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts."
----
-
 # /sales-enablement — Sales Enablement
+
+> Create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts.
 
 Invoke the **sales-enablement** marketing skill and follow it for this task.
 

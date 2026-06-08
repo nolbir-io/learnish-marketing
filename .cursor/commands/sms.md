@@ -1,9 +1,6 @@
----
-name: sms
-description: "Plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/a..."
----
-
 # /sms — SMS Marketing
+
+> Plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/a...
 
 Invoke the **sms** marketing skill and follow it for this task.
 

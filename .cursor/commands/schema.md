@@ -1,9 +1,6 @@
----
-name: schema
-description: "Add, fix, or optimize schema markup and structured data on their site."
----
-
 # /schema — Schema Markup
+
+> Add, fix, or optimize schema markup and structured data on their site.
 
 Invoke the **schema** marketing skill and follow it for this task.
 

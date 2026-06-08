@@ -1,9 +1,6 @@
----
-name: copywriting
-description: "Write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages."
----
-
 # /copywriting — Copywriting
+
+> Write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages.
 
 Invoke the **copywriting** marketing skill and follow it for this task.
 

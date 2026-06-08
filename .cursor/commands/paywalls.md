@@ -1,9 +1,6 @@
----
-name: paywalls
-description: "Create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates."
----
-
 # /paywalls — Paywall and Upgrade Screen CRO
+
+> Create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates.
 
 Invoke the **paywalls** marketing skill and follow it for this task.
 

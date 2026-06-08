@@ -1,9 +1,6 @@
----
-name: marketing-ideas
-description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product."
----
-
 # /marketing-ideas — Marketing Ideas for SaaS
+
+> When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product.
 
 Invoke the **marketing-ideas** marketing skill and follow it for this task.
 
